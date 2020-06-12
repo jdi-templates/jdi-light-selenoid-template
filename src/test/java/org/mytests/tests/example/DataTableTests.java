@@ -45,11 +45,11 @@ public class DataTableTests extends TestsInit {
     }
     @Test
     public void filterDataTest() {
-        assertEquals(users.data(2), SPIDER_MAN);
-        assertEquals(usersSetup.data("Sergey Ivan"), SPIDER_MAN);
-        assertEquals(users.data(d -> d.user.contains("Ivan")), SPIDER_MAN);
+        assertEquals(users.dataRow(2), SPIDER_MAN);
+        assertEquals(usersSetup.dataRow("Sergey Ivan"), SPIDER_MAN);
+        assertEquals(users.dataRow(d -> d.user.contains("Ivan")), SPIDER_MAN);
 
-        List<MarvelUserInfo> filteredData = users.datas(d -> d.user.contains("Ivan"));
+        List<MarvelUserInfo> filteredData = users.dataRows(d -> d.user.contains("Ivan"));
         assertEquals(filteredData.size(), 1);
         assertEquals(filteredData.get(0), SPIDER_MAN);
     }
@@ -61,7 +61,7 @@ public class DataTableTests extends TestsInit {
         users.is().size(lessThanOrEqualTo(6));
         users.is().notEmpty();
         users.has().row(d -> d.user.contains("Ivan"));
-        users.assertThat().allRows(d -> d.user.length() > 4);
+        users.assertThat().row(d -> d.user.length() > 4);
         users.assertThat().atLeast(3).rows(d -> d.type.contains("User"));
         users.assertThat().exact(2).rows(d -> d.description.contains(":VIP"));
         users.has().row(SPIDER_MAN);
