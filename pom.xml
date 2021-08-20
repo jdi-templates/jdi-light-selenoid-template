@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <aspectj.version>1.9.1</aspectj.version>
+        <aspectj.version>1.9.6</aspectj.version>
         <driver>chrome</driver>
         <domain>https://epam.github.io/JDI/</domain>
         <java.version>1.8</java.version>
