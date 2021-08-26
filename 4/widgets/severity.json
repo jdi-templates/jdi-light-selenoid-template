@@ -1,151 +1,151 @@
 [ {
-  "uid" : "291da78ab74e7250",
-  "name" : "menuTest",
-  "time" : {
-    "start" : 1630014350352,
-    "stop" : 1630014351800,
-    "duration" : 1448
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "19be51f61fd9029a",
+  "uid" : "7f3e721bd24fe6a5",
   "name" : "loginTest",
   "time" : {
-    "start" : 1630014409213,
-    "stop" : 1630014410640,
-    "duration" : 1427
+    "start" : 1630014594944,
+    "stop" : 1630014596341,
+    "duration" : 1397
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "91215faf6247166d",
-  "name" : "dataTableTest",
-  "time" : {
-    "start" : 1630014346395,
-    "stop" : 1630014346396,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9fbb541e518b3b12",
-  "name" : "openPerformancePage",
-  "time" : {
-    "start" : 1630014345664,
-    "stop" : 1630014345670,
-    "duration" : 6
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ce1e6e0b2b08cd63",
-  "name" : "hugeTableValidateTest",
-  "time" : {
-    "start" : 1630014345767,
-    "stop" : 1630014345767,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "58eb48568102f2c4",
-  "name" : "before",
-  "time" : {
-    "start" : 1630014346379,
-    "stop" : 1630014346379,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9b5ff27de3c0397d",
-  "name" : "longTextTest",
-  "time" : {
-    "start" : 1630014345778,
-    "stop" : 1630014345778,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d8aba253db00b77b",
-  "name" : "filterLinesTest",
-  "time" : {
-    "start" : 1630014346410,
-    "stop" : 1630014346411,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9952e3dc557c5c40",
-  "name" : "bigDropdownTest",
-  "time" : {
-    "start" : 1630014345720,
-    "stop" : 1630014345720,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "4df6b1bd8a5b87a6",
-  "name" : "filterDataTest",
-  "time" : {
-    "start" : 1630014346404,
-    "stop" : 1630014346404,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "826092b8c14eac70",
-  "name" : "fillContactFormTest",
-  "time" : {
-    "start" : 1630014402491,
-    "stop" : 1630014404103,
-    "duration" : 1612
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1753960d65bd50c3",
-  "name" : "customMenuTest",
-  "time" : {
-    "start" : 1630014346993,
-    "stop" : 1630014348550,
-    "duration" : 1557
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7596b1c5dc0ea7cb",
-  "name" : "tableAssertsTest",
-  "time" : {
-    "start" : 1630014346413,
-    "stop" : 1630014346413,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "6dda1259571dd578",
+  "uid" : "cfdc6a62547e90c4",
   "name" : "hugeTableSearchTest",
   "time" : {
-    "start" : 1630014345741,
-    "stop" : 1630014345742,
+    "start" : 1630014533349,
+    "stop" : 1630014533350,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "bf9b2139b640bd33",
+  "uid" : "aacd8a9e635b17de",
   "name" : "fillContactsTest",
   "time" : {
-    "start" : 1630014405940,
-    "stop" : 1630014407464,
-    "duration" : 1524
+    "start" : 1630014592036,
+    "stop" : 1630014593444,
+    "duration" : 1408
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ace3a4b8a7def14",
+  "name" : "bigDropdownTest",
+  "time" : {
+    "start" : 1630014533312,
+    "stop" : 1630014533312,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "899aa8bd684ed8f",
+  "name" : "hugeTableValidateTest",
+  "time" : {
+    "start" : 1630014533363,
+    "stop" : 1630014533363,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bf9e4151ee4515d0",
+  "name" : "openPerformancePage",
+  "time" : {
+    "start" : 1630014533301,
+    "stop" : 1630014533301,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a28b97c38f4ec343",
+  "name" : "dataTableTest",
+  "time" : {
+    "start" : 1630014532567,
+    "stop" : 1630014532570,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1b4e0c2540aa805d",
+  "name" : "fillContactFormTest",
+  "time" : {
+    "start" : 1630014588842,
+    "stop" : 1630014590486,
+    "duration" : 1644
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "659cb293c1fda8da",
+  "name" : "customMenuTest",
+  "time" : {
+    "start" : 1630014532517,
+    "stop" : 1630014534181,
+    "duration" : 1664
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8e23e71526cadf9b",
+  "name" : "longTextTest",
+  "time" : {
+    "start" : 1630014533380,
+    "stop" : 1630014533381,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ee042d63291ca733",
+  "name" : "before",
+  "time" : {
+    "start" : 1630014532552,
+    "stop" : 1630014532553,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c29c6bb328e1c701",
+  "name" : "filterLinesTest",
+  "time" : {
+    "start" : 1630014532598,
+    "stop" : 1630014532605,
+    "duration" : 7
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "528c0a7ef6472e6a",
+  "name" : "tableAssertsTest",
+  "time" : {
+    "start" : 1630014532634,
+    "stop" : 1630014532634,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2181cc1a51c218c7",
+  "name" : "menuTest",
+  "time" : {
+    "start" : 1630014535809,
+    "stop" : 1630014537087,
+    "duration" : 1278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cd8de44e40ece414",
+  "name" : "filterDataTest",
+  "time" : {
+    "start" : 1630014532580,
+    "stop" : 1630014532580,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]
