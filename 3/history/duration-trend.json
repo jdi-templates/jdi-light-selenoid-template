@@ -1,8 +1,0 @@
-[ {
-  "buildOrder" : 3,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9344
-  }
-} ]
