@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jdi-templates.github.io/jdi-light-selenoid-template",
+  "buildOrder" : 4,
+  "buildName" : "GitHub Actions Run #1172094650",
+  "buildUrl" : "https://github.com/jdi-templates/jdi-light-selenoid-template/actions/runs/1172094650",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/4/"
+} ]
