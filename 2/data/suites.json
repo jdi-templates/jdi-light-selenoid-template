@@ -5,58 +5,84 @@
     "children" : [ {
       "name" : "Tests",
       "children" : [ {
-        "name" : "org.mytests.tests.example.FormTests",
+        "name" : "org.mytests.tests.example.DataTableTests",
         "children" : [ {
-          "name" : "fillContactFormTest",
-          "uid" : "4c9c00139909d40c",
-          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
+          "name" : "before",
+          "uid" : "78fcad2e507550da",
+          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
           "status" : "broken",
           "time" : {
-            "start" : 1629977700099,
-            "stop" : 1629977702129,
-            "duration" : 2030
+            "start" : 1629977848397,
+            "stop" : 1629977848430,
+            "duration" : 33
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
-          "name" : "fillContactsTest",
-          "uid" : "d2164e99151fac56",
-          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
-          "status" : "broken",
+          "name" : "dataTableTest",
+          "uid" : "4b4f35716a10cf67",
+          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
+          "status" : "skipped",
           "time" : {
-            "start" : 1629977704100,
-            "stop" : 1629977705702,
-            "duration" : 1602
+            "start" : 1629977848447,
+            "stop" : 1629977848448,
+            "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
-          "name" : "loginTest",
-          "uid" : "699a8261a7973214",
-          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
-          "status" : "broken",
+          "name" : "filterDataTest",
+          "uid" : "64fb24338ed88999",
+          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
+          "status" : "skipped",
           "time" : {
-            "start" : 1629977707337,
-            "stop" : 1629977708762,
-            "duration" : 1425
+            "start" : 1629977848460,
+            "stop" : 1629977848460,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filterLinesTest",
+          "uid" : "4a5656fdf5c8398e",
+          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629977848474,
+            "stop" : 1629977848474,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "tableAssertsTest",
+          "uid" : "34e7666a1e4cf68",
+          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629977848496,
+            "stop" : 1629977848496,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "cac9d30ede84884e84c2d05b003ef2e3"
+        "uid" : "3c722f14aa2790f3db0037dec4266d8e"
       }, {
         "name" : "org.mytests.tests.example.JDIPerformanceTests",
         "children" : [ {
           "name" : "openPerformancePage",
-          "uid" : "563622215a7d3b28",
+          "uid" : "fab3f64f3ce86e09",
           "parentUid" : "eb9e756393611f40713c066ea2ea8433",
           "status" : "broken",
           "time" : {
-            "start" : 1629977700215,
-            "stop" : 1629977700216,
+            "start" : 1629977848414,
+            "stop" : 1629977848415,
             "duration" : 1
           },
           "flaky" : false,
@@ -64,12 +90,12 @@
           "parameters" : [ ]
         }, {
           "name" : "bigDropdownTest",
-          "uid" : "9a7ebd3b1d12b812",
+          "uid" : "f9b9c250e0746f7f",
           "parentUid" : "eb9e756393611f40713c066ea2ea8433",
           "status" : "skipped",
           "time" : {
-            "start" : 1629977700238,
-            "stop" : 1629977700238,
+            "start" : 1629977848507,
+            "stop" : 1629977848507,
             "duration" : 0
           },
           "flaky" : false,
@@ -77,38 +103,38 @@
           "parameters" : [ ]
         }, {
           "name" : "hugeTableSearchTest",
-          "uid" : "f28da305d1087de1",
+          "uid" : "fb33b21767d512f2",
           "parentUid" : "eb9e756393611f40713c066ea2ea8433",
           "status" : "skipped",
           "time" : {
-            "start" : 1629977700241,
-            "stop" : 1629977700252,
-            "duration" : 11
+            "start" : 1629977848515,
+            "stop" : 1629977848515,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "hugeTableValidateTest",
-          "uid" : "ba3520055823b83f",
+          "uid" : "dec0f72a9b61c56",
           "parentUid" : "eb9e756393611f40713c066ea2ea8433",
           "status" : "skipped",
           "time" : {
-            "start" : 1629977700254,
-            "stop" : 1629977700255,
-            "duration" : 1
+            "start" : 1629977848543,
+            "stop" : 1629977848543,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "longTextTest",
-          "uid" : "79b5a2ed65b45687",
+          "uid" : "d458cd310d61bdb",
           "parentUid" : "eb9e756393611f40713c066ea2ea8433",
           "status" : "skipped",
           "time" : {
-            "start" : 1629977700276,
-            "stop" : 1629977700276,
+            "start" : 1629977848566,
+            "stop" : 1629977848566,
             "duration" : 0
           },
           "flaky" : false,
@@ -117,104 +143,78 @@
         } ],
         "uid" : "eb9e756393611f40713c066ea2ea8433"
       }, {
+        "name" : "org.mytests.tests.example.FormTests",
+        "children" : [ {
+          "name" : "fillContactFormTest",
+          "uid" : "eae51b594a721cc6",
+          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629977848599,
+            "stop" : 1629977850515,
+            "duration" : 1916
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "fillContactsTest",
+          "uid" : "3845572f0827b5ea",
+          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629977852381,
+            "stop" : 1629977853806,
+            "duration" : 1425
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginTest",
+          "uid" : "8adbc4d5e40cf6e1",
+          "parentUid" : "cac9d30ede84884e84c2d05b003ef2e3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629977855529,
+            "stop" : 1629977857032,
+            "duration" : 1503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cac9d30ede84884e84c2d05b003ef2e3"
+      }, {
         "name" : "org.mytests.tests.example.MenuTests",
         "children" : [ {
           "name" : "customMenuTest",
-          "uid" : "d905a524da7302c9",
+          "uid" : "c1779fc8a3070759",
           "parentUid" : "7b539f037c6d8f158d68b36aaeb4439b",
           "status" : "broken",
           "time" : {
-            "start" : 1629977700428,
-            "stop" : 1629977702229,
-            "duration" : 1801
+            "start" : 1629977848606,
+            "stop" : 1629977850432,
+            "duration" : 1826
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "menuTest",
-          "uid" : "7cdb7599445d36c8",
+          "uid" : "635fdfc90810dffc",
           "parentUid" : "7b539f037c6d8f158d68b36aaeb4439b",
           "status" : "broken",
           "time" : {
-            "start" : 1629977704058,
-            "stop" : 1629977705761,
-            "duration" : 1703
+            "start" : 1629977852421,
+            "stop" : 1629977853900,
+            "duration" : 1479
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
         "uid" : "7b539f037c6d8f158d68b36aaeb4439b"
-      }, {
-        "name" : "org.mytests.tests.example.DataTableTests",
-        "children" : [ {
-          "name" : "before",
-          "uid" : "614bcc0288cb6200",
-          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
-          "status" : "broken",
-          "time" : {
-            "start" : 1629977700548,
-            "stop" : 1629977700548,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "dataTableTest",
-          "uid" : "4fea15fced937c9e",
-          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1629977700560,
-            "stop" : 1629977700560,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "filterDataTest",
-          "uid" : "5834166cce9eb666",
-          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1629977700567,
-            "stop" : 1629977700567,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "filterLinesTest",
-          "uid" : "cadf00ae397fb12d",
-          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1629977700588,
-            "stop" : 1629977700588,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "tableAssertsTest",
-          "uid" : "4b3f302e7b38c3df",
-          "parentUid" : "3c722f14aa2790f3db0037dec4266d8e",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1629977700595,
-            "stop" : 1629977700595,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "3c722f14aa2790f3db0037dec4266d8e"
       } ],
       "uid" : "7c9cbfc071acbe617f6168e12cf3e08f"
     } ],
