@@ -1,0 +1,220 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "org.mytests.tests.example",
+    "children" : [ {
+      "name" : "MenuTests",
+      "children" : [ {
+        "name" : "customMenuTest",
+        "uid" : "b7e4fc423a7fa68c",
+        "parentUid" : "905d68b7c61d008bdb7201bfd8b1da44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978301852,
+          "stop" : 1629978303606,
+          "duration" : 1754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "menuTest",
+        "uid" : "cf5acbc8d3cacbf7",
+        "parentUid" : "905d68b7c61d008bdb7201bfd8b1da44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978305526,
+          "stop" : 1629978307105,
+          "duration" : 1579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "905d68b7c61d008bdb7201bfd8b1da44"
+    }, {
+      "name" : "DataTableTests",
+      "children" : [ {
+        "name" : "before",
+        "uid" : "19d450425030a279",
+        "parentUid" : "ebd5e9d80014717a1fbd53dcd13b7510",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978301870,
+          "stop" : 1629978301874,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "dataTableTest",
+        "uid" : "9a73a0916609e032",
+        "parentUid" : "ebd5e9d80014717a1fbd53dcd13b7510",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978301884,
+          "stop" : 1629978301892,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filterDataTest",
+        "uid" : "49314380dca280d2",
+        "parentUid" : "ebd5e9d80014717a1fbd53dcd13b7510",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978301906,
+          "stop" : 1629978301906,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filterLinesTest",
+        "uid" : "d655504aa284f9ae",
+        "parentUid" : "ebd5e9d80014717a1fbd53dcd13b7510",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978301931,
+          "stop" : 1629978301931,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tableAssertsTest",
+        "uid" : "26138a8a4edcf061",
+        "parentUid" : "ebd5e9d80014717a1fbd53dcd13b7510",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978301998,
+          "stop" : 1629978301999,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebd5e9d80014717a1fbd53dcd13b7510"
+    }, {
+      "name" : "JDIPerformanceTests",
+      "children" : [ {
+        "name" : "openPerformancePage",
+        "uid" : "39450e1a39f174ed",
+        "parentUid" : "57d3502505b4688571d076c1413ae342",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978302927,
+          "stop" : 1629978302927,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "bigDropdownTest",
+        "uid" : "36f4305c6c532bd2",
+        "parentUid" : "57d3502505b4688571d076c1413ae342",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978302930,
+          "stop" : 1629978302930,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "hugeTableSearchTest",
+        "uid" : "bf63fe14725a839d",
+        "parentUid" : "57d3502505b4688571d076c1413ae342",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978302946,
+          "stop" : 1629978302946,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "hugeTableValidateTest",
+        "uid" : "e036ad2ea4d59e94",
+        "parentUid" : "57d3502505b4688571d076c1413ae342",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978302950,
+          "stop" : 1629978302950,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "longTextTest",
+        "uid" : "28f7f937baabd9bf",
+        "parentUid" : "57d3502505b4688571d076c1413ae342",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629978302955,
+          "stop" : 1629978302956,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57d3502505b4688571d076c1413ae342"
+    }, {
+      "name" : "FormTests",
+      "children" : [ {
+        "name" : "fillContactFormTest",
+        "uid" : "7faa3d877e9fb54",
+        "parentUid" : "1c5ec3b9f0409b30d761c2c4ae6e0e2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978303663,
+          "stop" : 1629978305382,
+          "duration" : 1719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fillContactsTest",
+        "uid" : "f1b24e1a7e05916b",
+        "parentUid" : "1c5ec3b9f0409b30d761c2c4ae6e0e2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978307061,
+          "stop" : 1629978308342,
+          "duration" : 1281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "1b35bb559c065d5e",
+        "parentUid" : "1c5ec3b9f0409b30d761c2c4ae6e0e2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629978309849,
+          "stop" : 1629978311196,
+          "duration" : 1347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c5ec3b9f0409b30d761c2c4ae6e0e2d"
+    } ],
+    "uid" : "org.mytests.tests.example"
+  } ],
+  "name" : "packages"
+}
