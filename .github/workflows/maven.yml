@@ -68,6 +68,7 @@ jobs:
         if: always()
         with:
           allure_results: target/allure-results
+          allure_report: target/allure-report
           allure_history: allure-history
 
       - name: Upload Allure report
@@ -75,7 +76,7 @@ jobs:
         if: github.event_name == 'pull_request' && failure()
         with:
           name: Allure report
-          path: ./target/site
+          path: target/allure-report
 
       - name: Deploy Allure report to Github Pages
         if: always()
