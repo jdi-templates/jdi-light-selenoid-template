@@ -1,0 +1,151 @@
+[ {
+  "uid" : "6f1114f725224287",
+  "name" : "hugeTableSearchTest",
+  "time" : {
+    "start" : 1629978091712,
+    "stop" : 1629978091712,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4602a09490929abf",
+  "name" : "menuTest",
+  "time" : {
+    "start" : 1629978095438,
+    "stop" : 1629978097088,
+    "duration" : 1650
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ab9a747df6cc5e9",
+  "name" : "before",
+  "time" : {
+    "start" : 1629978091144,
+    "stop" : 1629978091147,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e54dfa0c35e32aa8",
+  "name" : "longTextTest",
+  "time" : {
+    "start" : 1629978091726,
+    "stop" : 1629978091726,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3c7fe02a9428ecbc",
+  "name" : "tableAssertsTest",
+  "time" : {
+    "start" : 1629978091235,
+    "stop" : 1629978091235,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c814601eae14f38e",
+  "name" : "hugeTableValidateTest",
+  "time" : {
+    "start" : 1629978091723,
+    "stop" : 1629978091723,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bafd8512e0dbe41d",
+  "name" : "fillContactFormTest",
+  "time" : {
+    "start" : 1629978091878,
+    "stop" : 1629978093659,
+    "duration" : 1781
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f765b6a2cd691167",
+  "name" : "bigDropdownTest",
+  "time" : {
+    "start" : 1629978091710,
+    "stop" : 1629978091710,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "25505bb2bbc8ac7b",
+  "name" : "fillContactsTest",
+  "time" : {
+    "start" : 1629978095627,
+    "stop" : 1629978097197,
+    "duration" : 1570
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7085f61fe057af2e",
+  "name" : "filterDataTest",
+  "time" : {
+    "start" : 1629978091216,
+    "stop" : 1629978091216,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "755056f3b17c843",
+  "name" : "filterLinesTest",
+  "time" : {
+    "start" : 1629978091221,
+    "stop" : 1629978091222,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9f5697fa7272a285",
+  "name" : "dataTableTest",
+  "time" : {
+    "start" : 1629978091197,
+    "stop" : 1629978091197,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "762f71aa6e156697",
+  "name" : "openPerformancePage",
+  "time" : {
+    "start" : 1629978091694,
+    "stop" : 1629978091694,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6e430638aaa2b6",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1629978099006,
+    "stop" : 1629978100459,
+    "duration" : 1453
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d981ba84854904ba",
+  "name" : "customMenuTest",
+  "time" : {
+    "start" : 1629978091793,
+    "stop" : 1629978093552,
+    "duration" : 1759
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
