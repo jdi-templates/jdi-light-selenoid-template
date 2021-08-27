@@ -23,6 +23,18 @@
     "total" : 15
   }
 }, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 7,
+    "skipped" : 8,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 15
+  }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/4/",
   "reportName" : "Allure Report with history",
