@@ -7,6 +7,14 @@
     "retry" : 5
   }
 }, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 15,
+    "retry" : 5
+  }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/4/",
   "reportName" : "Allure Report with history",

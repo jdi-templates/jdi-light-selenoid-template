@@ -1,150 +1,150 @@
 [ {
-  "uid" : "6129eda2d9eba9ec",
-  "name" : "longTextTest",
-  "time" : {
-    "start" : 1630072429346,
-    "stop" : 1630072429346,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a4060dd7861af5ac",
-  "name" : "fillContactsTest",
-  "time" : {
-    "start" : 1630072432578,
-    "stop" : 1630072434059,
-    "duration" : 1481
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "47324fbfd1714975",
-  "name" : "customMenuTest",
-  "time" : {
-    "start" : 1630072485085,
-    "stop" : 1630072486680,
-    "duration" : 1595
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "30b78f81ba1a3bd2",
-  "name" : "before",
-  "time" : {
-    "start" : 1630072428737,
-    "stop" : 1630072428738,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a6921cab0336fd78",
-  "name" : "hugeTableSearchTest",
-  "time" : {
-    "start" : 1630072429334,
-    "stop" : 1630072429334,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "5de2bab7284ac473",
-  "name" : "openPerformancePage",
-  "time" : {
-    "start" : 1630072429310,
-    "stop" : 1630072429311,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4b91613a4c2dcfbd",
-  "name" : "dataTableTest",
-  "time" : {
-    "start" : 1630072428759,
-    "stop" : 1630072428759,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2b56bd957aa08dfe",
-  "name" : "hugeTableValidateTest",
-  "time" : {
-    "start" : 1630072429338,
-    "stop" : 1630072429338,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "6fa8f3f1cd6a607a",
-  "name" : "bigDropdownTest",
-  "time" : {
-    "start" : 1630072429321,
-    "stop" : 1630072429322,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "caed26fc28c370cc",
-  "name" : "fillContactFormTest",
-  "time" : {
-    "start" : 1630072429280,
-    "stop" : 1630072430878,
-    "duration" : 1598
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5ccd1c38aea60ac1",
-  "name" : "loginTest",
-  "time" : {
-    "start" : 1630072435743,
-    "stop" : 1630072437261,
-    "duration" : 1518
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2d931cd3efabd6ed",
+  "uid" : "9b7b732bacbeb503",
   "name" : "filterDataTest",
   "time" : {
-    "start" : 1630072428775,
-    "stop" : 1630072428775,
+    "start" : 1630072613737,
+    "stop" : 1630072613737,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "817ebf724ca21051",
-  "name" : "menuTest",
+  "uid" : "f5212051d16d3679",
+  "name" : "before",
   "time" : {
-    "start" : 1630072488403,
-    "stop" : 1630072489960,
-    "duration" : 1557
+    "start" : 1630072613724,
+    "stop" : 1630072613726,
+    "duration" : 2
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "5d00d57a44d53d13",
-  "name" : "tableAssertsTest",
+  "uid" : "8aabcd720d9eeaf3",
+  "name" : "loginTest",
   "time" : {
-    "start" : 1630072428802,
-    "stop" : 1630072428803,
-    "duration" : 1
+    "start" : 1630072676475,
+    "stop" : 1630072677903,
+    "duration" : 1428
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5728bb78aad80608",
+  "name" : "filterLinesTest",
+  "time" : {
+    "start" : 1630072613740,
+    "stop" : 1630072613740,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "40faa7ed7939ac1e",
-  "name" : "filterLinesTest",
+  "uid" : "8be9091d4989163",
+  "name" : "bigDropdownTest",
   "time" : {
-    "start" : 1630072428782,
-    "stop" : 1630072428782,
+    "start" : 1630072613717,
+    "stop" : 1630072613717,
     "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5d474c87b41faf7d",
+  "name" : "openPerformancePage",
+  "time" : {
+    "start" : 1630072613683,
+    "stop" : 1630072613684,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e21e5095169970d2",
+  "name" : "menuTest",
+  "time" : {
+    "start" : 1630072617291,
+    "stop" : 1630072618668,
+    "duration" : 1377
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f50548a82cdd2cf0",
+  "name" : "fillContactFormTest",
+  "time" : {
+    "start" : 1630072670113,
+    "stop" : 1630072671619,
+    "duration" : 1506
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "777f50e9b916c2dd",
+  "name" : "customMenuTest",
+  "time" : {
+    "start" : 1630072614093,
+    "stop" : 1630072615590,
+    "duration" : 1497
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2cae58d2fb9e0d8b",
+  "name" : "hugeTableValidateTest",
+  "time" : {
+    "start" : 1630072613740,
+    "stop" : 1630072613740,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b39a41a124d45504",
+  "name" : "longTextTest",
+  "time" : {
+    "start" : 1630072613753,
+    "stop" : 1630072613753,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ec562e8f07e50f36",
+  "name" : "fillContactsTest",
+  "time" : {
+    "start" : 1630072673238,
+    "stop" : 1630072674801,
+    "duration" : 1563
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9057b2e0499588b",
+  "name" : "tableAssertsTest",
+  "time" : {
+    "start" : 1630072613757,
+    "stop" : 1630072613757,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "64ca6e185710b1cb",
+  "name" : "hugeTableSearchTest",
+  "time" : {
+    "start" : 1630072613727,
+    "stop" : 1630072613727,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9bd67c7591444275",
+  "name" : "dataTableTest",
+  "time" : {
+    "start" : 1630072613732,
+    "stop" : 1630072613733,
+    "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
