@@ -3,12 +3,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "f9e8d7c0d16735d",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/f9e8d7c0d16735d",
+      "status" : "skipped",
+      "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841270,
+        "stop" : 1630073841271,
+        "duration" : 1
+      }
+    }, {
       "uid" : "83309f73d3a9473d",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/83309f73d3a9473d",
       "status" : "skipped",
@@ -173,13 +183,23 @@
   "8e41cf811ea4cbd476913f3a9fb7c08c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "483a94836c2aaae2",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/483a94836c2aaae2",
+      "status" : "broken",
+      "statusDetails" : "[17:23.574] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841905,
+        "stop" : 1630073843575,
+        "duration" : 1670
+      }
+    }, {
       "uid" : "dff1de115c5222a3",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/dff1de115c5222a3",
       "status" : "broken",
@@ -344,13 +364,23 @@
   "bc47116055710cda9b1d10b0306f0f4e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "7356e02273cf9a47",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/7356e02273cf9a47",
+      "status" : "broken",
+      "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841216,
+        "stop" : 1630073841220,
+        "duration" : 4
+      }
+    }, {
       "uid" : "45c8e0a6492b8275",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/45c8e0a6492b8275",
       "status" : "broken",
@@ -516,12 +546,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "e49d71ada965e896",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/e49d71ada965e896",
+      "status" : "skipped",
+      "statusDetails" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841258,
+        "stop" : 1630073841258,
+        "duration" : 0
+      }
+    }, {
       "uid" : "df66f44561f9bbbb",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/df66f44561f9bbbb",
       "status" : "skipped",
@@ -687,12 +727,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c5863f587960478e",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/c5863f587960478e",
+      "status" : "skipped",
+      "statusDetails" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841287,
+        "stop" : 1630073841287,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5e3c46b0401defeb",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/5e3c46b0401defeb",
       "status" : "skipped",
@@ -858,12 +908,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "676e07e60bcbfe8e",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/676e07e60bcbfe8e",
+      "status" : "skipped",
+      "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841331,
+        "stop" : 1630073841331,
+        "duration" : 0
+      }
+    }, {
       "uid" : "fe711d6ffbffa422",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/fe711d6ffbffa422",
       "status" : "skipped",
@@ -1028,13 +1088,23 @@
   "9e83b9d794d1d06477cababf50bb5bd8" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "b0c2aee3dd761189",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/b0c2aee3dd761189",
+      "status" : "broken",
+      "statusDetails" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841210,
+        "stop" : 1630073841215,
+        "duration" : 5
+      }
+    }, {
       "uid" : "e349241afca0a235",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/e349241afca0a235",
       "status" : "broken",
@@ -1199,13 +1269,23 @@
   "b450e324374f472a2503b22490a157de" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "46eab6556643bd8a",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/46eab6556643bd8a",
+      "status" : "broken",
+      "statusDetails" : "[17:26.674] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073845224,
+        "stop" : 1630073846675,
+        "duration" : 1451
+      }
+    }, {
       "uid" : "a6762780f9526be",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/a6762780f9526be",
       "status" : "broken",
@@ -1370,13 +1450,23 @@
   "86ac47dc43d50dc3cc9322d4ef366dd0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "5eb55ebc5e6e70d",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/5eb55ebc5e6e70d",
+      "status" : "broken",
+      "statusDetails" : "[18:21.549] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073899884,
+        "stop" : 1630073901556,
+        "duration" : 1672
+      }
+    }, {
       "uid" : "812a2f0bd5e4531",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/812a2f0bd5e4531",
       "status" : "broken",
@@ -1541,13 +1631,23 @@
   "f82d99216fb6cdf138a2ed677f2414b4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "791f44e1c086ae11",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/791f44e1c086ae11",
+      "status" : "broken",
+      "statusDetails" : "[18:18.250] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073896573,
+        "stop" : 1630073898251,
+        "duration" : 1678
+      }
+    }, {
       "uid" : "bba0371216ed7fe9",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/bba0371216ed7fe9",
       "status" : "broken",
@@ -1713,12 +1813,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "bfcfd454a16645d1",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/bfcfd454a16645d1",
+      "status" : "skipped",
+      "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841247,
+        "stop" : 1630073841247,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b49129fea4ecd1b3",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/b49129fea4ecd1b3",
       "status" : "skipped",
@@ -1883,13 +1993,23 @@
   "e60f2a844977a19fb6080bfba934739e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 16,
+      "broken" : 17,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "ae206bc2f31c105e",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/ae206bc2f31c105e",
+      "status" : "broken",
+      "statusDetails" : "[17:29.637] Failed to execute 'Form.loginAs' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073848232,
+        "stop" : 1630073849638,
+        "duration" : 1406
+      }
+    }, {
       "uid" : "52c7546d0650cd43",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/52c7546d0650cd43",
       "status" : "broken",
@@ -2055,12 +2175,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "aa59afcb2d5f5a46",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/aa59afcb2d5f5a46",
+      "status" : "skipped",
+      "statusDetails" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841321,
+        "stop" : 1630073841321,
+        "duration" : 0
+      }
+    }, {
       "uid" : "dbf7b579d8ca1e4f",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/dbf7b579d8ca1e4f",
       "status" : "skipped",
@@ -2226,12 +2356,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "d8640804e7968497",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/d8640804e7968497",
+      "status" : "skipped",
+      "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841296,
+        "stop" : 1630073841296,
+        "duration" : 0
+      }
+    }, {
       "uid" : "eb279ef6113ea5f4",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/eb279ef6113ea5f4",
       "status" : "skipped",
@@ -2397,12 +2537,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "b4a9731108d68856",
+      "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/b4a9731108d68856",
+      "status" : "skipped",
+      "statusDetails" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "time" : {
+        "start" : 1630073841278,
+        "stop" : 1630073841278,
+        "duration" : 0
+      }
+    }, {
       "uid" : "b3f04d70c3cc92bb",
       "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/b3f04d70c3cc92bb",
       "status" : "skipped",

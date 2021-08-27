@@ -3,124 +3,124 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "[13:52.938] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "name" : "[17:21.119] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
       "children" : [ {
         "name" : "openPerformancePage",
-        "uid" : "e349241afca0a235",
-        "parentUid" : "951c911d5d768c284b3f31720938a8b0",
+        "uid" : "b0c2aee3dd761189",
+        "parentUid" : "3c50c53329ba12b054cd942b85a570dd",
         "status" : "broken",
         "time" : {
-          "start" : 1630073633199,
-          "stop" : 1630073633199,
-          "duration" : 0
+          "start" : 1630073841210,
+          "stop" : 1630073841215,
+          "duration" : 5
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "951c911d5d768c284b3f31720938a8b0"
+      "uid" : "3c50c53329ba12b054cd942b85a570dd"
     }, {
-      "name" : "[13:55.11] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
-      "children" : [ {
-        "name" : "customMenuTest",
-        "uid" : "bba0371216ed7fe9",
-        "parentUid" : "634ac7f4f51ebc5441542accb744d232",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630073633275,
-          "stop" : 1630073635012,
-          "duration" : 1737
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "634ac7f4f51ebc5441542accb744d232"
-    }, {
-      "name" : "[13:54.40] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "name" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
       "children" : [ {
         "name" : "before",
-        "uid" : "45c8e0a6492b8275",
-        "parentUid" : "e8c4d29a39c8442370afe6ddc1005862",
+        "uid" : "7356e02273cf9a47",
+        "parentUid" : "9ce0ebf4b87a114e018d4373642850da",
         "status" : "broken",
         "time" : {
-          "start" : 1630073634057,
-          "stop" : 1630073634057,
-          "duration" : 0
+          "start" : 1630073841216,
+          "stop" : 1630073841220,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e8c4d29a39c8442370afe6ddc1005862"
+      "uid" : "9ce0ebf4b87a114e018d4373642850da"
     }, {
-      "name" : "[13:58.162] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
-      "children" : [ {
-        "name" : "menuTest",
-        "uid" : "812a2f0bd5e4531",
-        "parentUid" : "18393bceca9bee91d3801b435cb02824",
-        "status" : "broken",
-        "time" : {
-          "start" : 1630073636728,
-          "stop" : 1630073638165,
-          "duration" : 1437
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "18393bceca9bee91d3801b435cb02824"
-    }, {
-      "name" : "[14:50.235] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "name" : "[17:23.574] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
       "children" : [ {
         "name" : "fillContactFormTest",
-        "uid" : "dff1de115c5222a3",
-        "parentUid" : "bfe12183f6059f47b1d39125c403778b",
+        "uid" : "483a94836c2aaae2",
+        "parentUid" : "9a657e2b981fc477e68afb0fe139bb1d",
         "status" : "broken",
         "time" : {
-          "start" : 1630073688792,
-          "stop" : 1630073690237,
-          "duration" : 1445
+          "start" : 1630073841905,
+          "stop" : 1630073843575,
+          "duration" : 1670
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bfe12183f6059f47b1d39125c403778b"
+      "uid" : "9a657e2b981fc477e68afb0fe139bb1d"
     }, {
-      "name" : "[14:53.487] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "name" : "[17:26.674] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
       "children" : [ {
         "name" : "fillContactsTest",
-        "uid" : "a6762780f9526be",
-        "parentUid" : "4870f16d98fe3967d3c7637d8f52cb7f",
+        "uid" : "46eab6556643bd8a",
+        "parentUid" : "35b9fe71ff558c9b289e7ba597f2c44a",
         "status" : "broken",
         "time" : {
-          "start" : 1630073691829,
-          "stop" : 1630073693491,
-          "duration" : 1662
+          "start" : 1630073845224,
+          "stop" : 1630073846675,
+          "duration" : 1451
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4870f16d98fe3967d3c7637d8f52cb7f"
+      "uid" : "35b9fe71ff558c9b289e7ba597f2c44a"
     }, {
-      "name" : "[14:56.284] Failed to execute 'Form.loginAs' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "name" : "[17:29.637] Failed to execute 'Form.loginAs' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
       "children" : [ {
         "name" : "loginTest",
-        "uid" : "52c7546d0650cd43",
-        "parentUid" : "3009ae90baec5780e399a81ddc359c7e",
+        "uid" : "ae206bc2f31c105e",
+        "parentUid" : "3372dc38d65a91b00939d793710b592a",
         "status" : "broken",
         "time" : {
-          "start" : 1630073695006,
-          "stop" : 1630073696288,
-          "duration" : 1282
+          "start" : 1630073848232,
+          "stop" : 1630073849638,
+          "duration" : 1406
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3009ae90baec5780e399a81ddc359c7e"
+      "uid" : "3372dc38d65a91b00939d793710b592a"
+    }, {
+      "name" : "[18:18.250] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "children" : [ {
+        "name" : "customMenuTest",
+        "uid" : "791f44e1c086ae11",
+        "parentUid" : "185d03253698fe9017255273a1bb4155",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630073896573,
+          "stop" : 1630073898251,
+          "duration" : 1678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "185d03253698fe9017255273a1bb4155"
+    }, {
+      "name" : "[18:21.549] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+      "children" : [ {
+        "name" : "menuTest",
+        "uid" : "5eb55ebc5e6e70d",
+        "parentUid" : "3cb0e4f5621359d83698aa70dca0ba6d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630073899884,
+          "stop" : 1630073901556,
+          "duration" : 1672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cb0e4f5621359d83698aa70dca0ba6d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
