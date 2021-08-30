@@ -10,5 +10,5 @@ Powered by [JDI Light](https://github.com/jdi-testing/jdi-light) and Selenium
 1. Clone repository
 2. Tests execution
     - one by one: mvn clean install -Pci
-4. Allure report
+3. Allure report
     - mvn allure:serve

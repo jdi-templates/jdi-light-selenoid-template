@@ -31,7 +31,7 @@ jobs:
 
       - name: Build with Maven
         id: build
-        run: mvn install -DskipTests
+        run: mvn install -DskipTests -ntp
 
       - name: Start Selenoid
         uses: n-ton4/selenoid-github-action@master
@@ -51,7 +51,7 @@ jobs:
         id: ftests
         timeout-minutes: 10
         if: github.event_name == 'pull_request' && success()
-        run: mvn test -Pci
+        run: mvn test -Pci -ntp
 
       - name: Get Allure history
         uses: actions/checkout@v2
