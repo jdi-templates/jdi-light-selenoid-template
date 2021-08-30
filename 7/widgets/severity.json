@@ -1,0 +1,131 @@
+[ {
+  "uid" : "97864fe440abcd97",
+  "name" : "hugeTableValidateTest",
+  "time" : {
+    "start" : 1630347892458,
+    "stop" : 1630347893141,
+    "duration" : 683
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0d891fa3dfb20b9",
+  "name" : "fillContactsTest",
+  "time" : {
+    "start" : 1630347955671,
+    "stop" : 1630347958023,
+    "duration" : 2352
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b8cc831c1708e898",
+  "name" : "customMenuTest",
+  "time" : {
+    "start" : 1630347873003,
+    "stop" : 1630347896534,
+    "duration" : 23531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c387b9432c105c11",
+  "name" : "fillContactFormTest",
+  "time" : {
+    "start" : 1630347946363,
+    "stop" : 1630347953071,
+    "duration" : 6708
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41dbaa4dc58011aa",
+  "name" : "tableAssertsTest",
+  "time" : {
+    "start" : 1630347931142,
+    "stop" : 1630347943611,
+    "duration" : 12469
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c7205370430d26a8",
+  "name" : "filterLinesTest",
+  "time" : {
+    "start" : 1630347906555,
+    "stop" : 1630347919136,
+    "duration" : 12581
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9656e32ff972a8",
+  "name" : "bigDropdownTest",
+  "time" : {
+    "start" : 1630347881369,
+    "stop" : 1630347887271,
+    "duration" : 5902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2927947369dbc5e3",
+  "name" : "longTextTest",
+  "time" : {
+    "start" : 1630347893365,
+    "stop" : 1630347893495,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f803fe36b7d44a9",
+  "name" : "dataTableTest",
+  "time" : {
+    "start" : 1630347884173,
+    "stop" : 1630347886121,
+    "duration" : 1948
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9f99df4bb444c2f",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1630347958025,
+    "stop" : 1630347961012,
+    "duration" : 2987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61c7cb2945c2b506",
+  "name" : "menuTest",
+  "time" : {
+    "start" : 1630347896536,
+    "stop" : 1630347905155,
+    "duration" : 8619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8fe522db50ba00f",
+  "name" : "filterDataTest",
+  "time" : {
+    "start" : 1630347889966,
+    "stop" : 1630347892759,
+    "duration" : 2793
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "814b2488ceb533d5",
+  "name" : "hugeTableSearchTest",
+  "time" : {
+    "start" : 1630347887417,
+    "stop" : 1630347891400,
+    "duration" : 3983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

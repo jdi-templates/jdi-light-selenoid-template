@@ -1,0 +1,735 @@
+{
+  "uid" : "7ac886c5c8f5c9d5",
+  "name" : "tableAssertsTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.tableAssertsTest",
+  "historyId" : "d6a78700d156040c0962a6ea5730a6d3",
+  "time" : {
+    "start" : 1630347919360,
+    "stop" : 1630347930892,
+    "duration" : 11532
+  },
+  "status" : "skipped",
+  "statusMessage" : "[25:30.890] Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'",
+  "statusTrace" : "java.lang.RuntimeException: [25:30.890] Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.row(DataTableAssert.java:42)\n\tat org.mytests.tests.example.DataTableTests.tableAssertsTest(DataTableTests.java:63)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.lang.RuntimeException: Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 15 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.row_aroundBody2(DataTableAssert.java:43)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert$AjcClosure3.run(DataTableAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 16 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow(DataTable.java:169)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.dataRow_aroundBody0(DataTableAssert.java:43)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert$AjcClosure1.run(DataTableAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 21 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody38(DataTable.java:173)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure39.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 28 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow(DataTable.java:69)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody36(DataTable.java:173)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure37.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 34 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody4(DataTable.java:75)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure5.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 41 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line(DataTable.java:87)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line_aroundBody0(DataTable.java:75)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure1.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 47 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line_aroundBody8(DataTable.java:92)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure9.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 54 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable.row(BaseTable.java:528)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.row_aroundBody6(DataTable.java:92)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure7.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 60 more\nCaused by: java.lang.RuntimeException: \nFailed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:16)\n\tat com.epam.jdi.light.elements.complex.table.Line.<init>(Line.java:71)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable.row_aroundBody88(BaseTable.java:529)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable$AjcClosure89.run(BaseTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 67 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1630347919137,
+      "stop" : 1630347919358,
+      "duration" : 221
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1630347919137,
+        "stop" : 1630347919237,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+      "time" : {
+        "start" : 1630347919237,
+        "stop" : 1630347919358,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+        "time" : {
+          "start" : 1630347919241,
+          "stop" : 1630347919358,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "37287976400ebe4c",
+        "name" : "Details",
+        "source" : "37287976400ebe4c.html",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1630347868020,
+      "stop" : 1630347872892,
+      "duration" : 4872
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1630347869860,
+        "stop" : 1630347872890,
+        "duration" : 3030
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1630347872334,
+          "stop" : 1630347872890,
+          "duration" : 556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8df454d794b20cf8",
+        "name" : "Details",
+        "source" : "8df454d794b20cf8.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "[25:30.890] Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'",
+    "statusTrace" : "java.lang.RuntimeException: [25:30.890] Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.row(DataTableAssert.java:42)\n\tat org.mytests.tests.example.DataTableTests.tableAssertsTest(DataTableTests.java:63)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: java.lang.RuntimeException: Failed to execute 'DataTableAssert.row' for element 'Users(css='#user-table')' during '10' seconds. Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 15 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.row_aroundBody2(DataTableAssert.java:43)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert$AjcClosure3.run(DataTableAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 16 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow(DataTable.java:169)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert.dataRow_aroundBody0(DataTableAssert.java:43)\n\tat com.epam.jdi.light.asserts.generic.table.DataTableAssert$AjcClosure1.run(DataTableAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 21 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody38(DataTable.java:173)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure39.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 28 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow(DataTable.java:69)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody36(DataTable.java:173)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure37.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 34 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.dataRow_aroundBody4(DataTable.java:75)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure5.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 41 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line(DataTable.java:87)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line_aroundBody0(DataTable.java:75)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure1.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 47 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.line_aroundBody8(DataTable.java:92)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure9.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 54 more\nCaused by: java.lang.RuntimeException: Failed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable.row(BaseTable.java:528)\n\tat com.epam.jdi.light.elements.complex.table.DataTable.row_aroundBody6(DataTable.java:92)\n\tat com.epam.jdi.light.elements.complex.table.DataTable$AjcClosure7.run(DataTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 60 more\nCaused by: java.lang.RuntimeException: \nFailed to create Line. Headers size='4' is not equal to Elements size='0'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:16)\n\tat com.epam.jdi.light.elements.complex.table.Line.<init>(Line.java:71)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable.row_aroundBody88(BaseTable.java:529)\n\tat com.epam.jdi.light.elements.complex.table.BaseTable$AjcClosure89.run(BaseTable.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 67 more\n",
+    "steps" : [ {
+      "name" : "Assert that 'Users' is displayed",
+      "time" : {
+        "start" : 1630347919376,
+        "stop" : 1630347919519,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check that 'Users' is displayed",
+        "time" : {
+          "start" : 1630347919391,
+          "stop" : 1630347919519,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "94c1da41b1c52d16",
+          "name" : "Actual result",
+          "source" : "94c1da41b1c52d16.html",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8f563279b1efd7a2",
+        "name" : "Details",
+        "source" : "8f563279b1efd7a2.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert that 'Users' size 6",
+      "time" : {
+        "start" : 1630347919520,
+        "stop" : 1630347919685,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Assert that 'Users' size is <6>",
+        "time" : {
+          "start" : 1630347919528,
+          "stop" : 1630347919685,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1630347919529,
+            "stop" : 1630347919685,
+            "duration" : 156
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1630347919619,
+              "stop" : 1630347919684,
+              "duration" : 65
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "4aa515806f79601c",
+              "name" : "Actual result",
+              "source" : "4aa515806f79601c.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "8c0249e0191c9f26",
+            "name" : "Actual result",
+            "source" : "8c0249e0191c9f26.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e4b89bc1518bc863",
+        "name" : "Details",
+        "source" : "e4b89bc1518bc863.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert that 'Users' size a value greater than <3>",
+      "time" : {
+        "start" : 1630347919689,
+        "stop" : 1630347919884,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 'Users' rows count",
+        "time" : {
+          "start" : 1630347919692,
+          "stop" : 1630347919883,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+          "time" : {
+            "start" : 1630347919769,
+            "stop" : 1630347919883,
+            "duration" : 114
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3fe10b73938552b",
+            "name" : "Actual result",
+            "source" : "3fe10b73938552b.html",
+            "type" : "text/plain",
+            "size" : 2
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "7f909efcc1f5c8b",
+          "name" : "Actual result",
+          "source" : "7f909efcc1f5c8b.html",
+          "type" : "text/plain",
+          "size" : 1
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bd629945491cb253",
+        "name" : "Details",
+        "source" : "bd629945491cb253.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert that 'Users' size a value less than or equal to <6>",
+      "time" : {
+        "start" : 1630347919884,
+        "stop" : 1630347920089,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 'Users' rows count",
+        "time" : {
+          "start" : 1630347919888,
+          "stop" : 1630347920089,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+          "time" : {
+            "start" : 1630347919972,
+            "stop" : 1630347920089,
+            "duration" : 117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "1d78a79f362fe85b",
+            "name" : "Actual result",
+            "source" : "1d78a79f362fe85b.html",
+            "type" : "text/plain",
+            "size" : 2
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "46a0f94e6c1f5cde",
+          "name" : "Actual result",
+          "source" : "46a0f94e6c1f5cde.html",
+          "type" : "text/plain",
+          "size" : 1
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "638d8fcd22a7b606",
+        "name" : "Details",
+        "source" : "638d8fcd22a7b606.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert is 'Users' not empty",
+      "time" : {
+        "start" : 1630347920090,
+        "stop" : 1630347920227,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Is 'Users' table empty",
+        "time" : {
+          "start" : 1630347920093,
+          "stop" : 1630347920227,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1630347920095,
+            "stop" : 1630347920226,
+            "duration" : 131
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1630347920173,
+              "stop" : 1630347920226,
+              "duration" : 53
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "a33830a1545c355b",
+              "name" : "Actual result",
+              "source" : "a33830a1545c355b.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "f8703598a7243e69",
+            "name" : "Actual result",
+            "source" : "f8703598a7243e69.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "9f565a157de64e8d",
+          "name" : "Actual result",
+          "source" : "9f565a157de64e8d.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ffbb6a75c600e666",
+        "name" : "Details",
+        "source" : "ffbb6a75c600e666.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert that 'Users' has at least one row that meet expected condition",
+      "time" : {
+        "start" : 1630347920228
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Get first 'Users' table row that match criteria",
+        "time" : {
+          "start" : 1630347920232,
+          "stop" : 1630347921300,
+          "duration" : 1068
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1630347920234,
+            "stop" : 1630347920392,
+            "duration" : 158
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1630347920329,
+              "stop" : 1630347920392,
+              "duration" : 63
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8d31f68e78539671",
+              "name" : "Actual result",
+              "source" : "8d31f68e78539671.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "2ec181b55109d308",
+            "name" : "Actual result",
+            "source" : "2ec181b55109d308.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get row '1' for 'Users' table",
+          "time" : {
+            "start" : 1630347920393,
+            "stop" : 1630347921299,
+            "duration" : 906
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "Get 'Users' header",
+            "time" : {
+              "start" : 1630347920397,
+              "stop" : 1630347921196,
+              "duration" : 799
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Get 'Users header' values",
+              "time" : {
+                "start" : 1630347920751,
+                "stop" : 1630347921196,
+                "duration" : 445
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Get '' text",
+                "time" : {
+                  "start" : 1630347921118,
+                  "stop" : 1630347921141,
+                  "duration" : 23
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "4fa53ac86440dfc5",
+                  "name" : "Actual result",
+                  "source" : "4fa53ac86440dfc5.html",
+                  "type" : "text/plain",
+                  "size" : 6
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "88d030f27c7c05c3",
+                "name" : "Actual result",
+                "source" : "88d030f27c7c05c3.html",
+                "type" : "text/plain",
+                "size" : 32
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "daf30823ab036dfe",
+              "name" : "Actual result",
+              "source" : "daf30823ab036dfe.html",
+              "type" : "text/plain",
+              "size" : 32
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Get 'Users line[1]' values",
+            "time" : {
+              "start" : 1630347921199,
+              "stop" : 1630347921299,
+              "duration" : 100
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "e754a295f5f7a2a3",
+              "name" : "Actual result",
+              "source" : "e754a295f5f7a2a3.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Failure details",
+        "time" : {
+          "start" : 1630347930877,
+          "stop" : 1630347930878,
+          "duration" : 1
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "228a524d9c67f0a",
+          "name" : "Screenshot",
+          "source" : "228a524d9c67f0a.png",
+          "type" : "image/png",
+          "size" : 145809
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fc531a6f5580f2c5",
+        "name" : "Details",
+        "source" : "fc531a6f5580f2c5.html",
+        "type" : "text/plain",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 23,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1630347961107,
+      "stop" : 1630347961130,
+      "duration" : 23
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "tableAssertsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az54-435"
+  }, {
+    "name" : "thread",
+    "value" : "4328@fv-az54-435.TestNG-test=Tests-2(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ac886c5c8f5c9d5.json",
+  "parameterValues" : [ ]
+}
