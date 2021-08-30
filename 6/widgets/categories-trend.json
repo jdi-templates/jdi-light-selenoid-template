@@ -15,6 +15,14 @@
     "Test defects" : 3
   }
 }, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 4,
+    "Test defects" : 3
+  }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
   "reportName" : "Allure Report with history",
