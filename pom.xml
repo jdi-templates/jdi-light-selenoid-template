@@ -13,20 +13,23 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.6</aspectj.version>
         <driver>chrome</driver>
-        <url/>
         <domain>https://epam.github.io/JDI/</domain>
         <java.version>1.8</java.version>
-        <jdi.version>1.3.13</jdi.version>
+        <jdi.version>1.3.14</jdi.version>
         <allure.testng>2.13.1</allure.testng>
         <allure.maven>2.10.0</allure.maven>
         <jetty.version>9.4.12.RC2</jetty.version>
+        <remote.url/>
     </properties>
 
     <profiles>
         <profile>
             <id>ci</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
             <properties>
-                <url>http://localhost:4444/wd/hub</url>
+                <remote.url>http://localhost:4444/wd/hub</remote.url>
             </properties>
         </profile>
     </profiles>
@@ -73,12 +76,6 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <!--                    <properties>-->
-                    <!--                        <property>-->
-                    <!--                            <name>listener</name>-->
-                    <!--                            <value>io.qameta.allure.testng.AllureTestNg</value>-->
-                    <!--                        </property>-->
-                    <!--                    </properties>-->
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
