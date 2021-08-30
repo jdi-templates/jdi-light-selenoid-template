@@ -1,12 +1,4 @@
 [ {
-  "buildOrder" : 7,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "Product defects" : 4,
-    "Test defects" : 3
-  }
-}, {
   "buildOrder" : 6,
   "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6/",
   "reportName" : "Allure Report with history",
@@ -47,8 +39,8 @@
     "Test defects" : 3
   }
 }, {
-  "buildOrder" : 6,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6/",
+  "buildOrder" : 7,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7/",
   "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 4,
@@ -71,11 +63,20 @@
     "Test defects" : 3
   }
 }, {
-  "buildOrder" : 5,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
+  "buildOrder" : 6,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 7
+    "Product defects" : 4,
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 4,
+    "Test defects" : 3
   }
 }, {
   "buildOrder" : 5,
@@ -127,8 +128,8 @@
     "Test defects" : 7
   }
 }, {
-  "buildOrder" : 4,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/4/",
+  "buildOrder" : 5,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
   "reportName" : "Allure Report with history",
   "data" : {
     "Test defects" : 7
