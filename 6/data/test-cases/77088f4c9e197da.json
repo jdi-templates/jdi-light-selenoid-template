@@ -1,0 +1,1004 @@
+{
+  "uid" : "77088f4c9e197da",
+  "name" : "fillContactFormTest",
+  "fullName" : "org.mytests.tests.example.FormTests.fillContactFormTest",
+  "historyId" : "8e41cf811ea4cbd476913f3a9fb7c08c",
+  "time" : {
+    "start" : 1630347919040,
+    "stop" : 1630347941179,
+    "duration" : 22139
+  },
+  "status" : "skipped",
+  "statusMessage" : "[25:41.178] Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'",
+  "statusTrace" : "java.lang.RuntimeException: [25:41.178] Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:242)\n\tat org.mytests.tests.example.FormTests.fillContactFormTest(FormTests.java:26)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:835)\nCaused by: java.lang.RuntimeException: Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 15 more\nCaused by: java.lang.RuntimeException: Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody28(Form.java:243)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure29.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 16 more\nCaused by: java.lang.RuntimeException: Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:255)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody26(Form.java:243)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure27.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 21 more\nCaused by: java.lang.RuntimeException: \nCan't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:16)\n\tat com.epam.jdi.light.actions.ActionProcessor.debugAround(ActionProcessor.java:73)\n\tat com.epam.jdi.light.elements.composite.Form.fill(Form.java:98)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:261)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody30(Form.java:256)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure31.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 28 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1630347913859,
+      "stop" : 1630347918898,
+      "duration" : 5039
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1630347915896,
+        "stop" : 1630347918896,
+        "duration" : 3000
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1630347918331,
+          "stop" : 1630347918892,
+          "duration" : 561
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "132cb041406b6b39",
+        "name" : "Details",
+        "source" : "132cb041406b6b39.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "[25:41.178] Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'",
+    "statusTrace" : "java.lang.RuntimeException: [25:41.178] Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:242)\n\tat org.mytests.tests.example.FormTests.fillContactFormTest(FormTests.java:26)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:835)\nCaused by: java.lang.RuntimeException: Failed to execute 'ContactForm.submit' for element 'Contact Form' during '0' seconds. Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 15 more\nCaused by: java.lang.RuntimeException: Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody28(Form.java:243)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure29.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 16 more\nCaused by: java.lang.RuntimeException: Can't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:31)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:255)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody26(Form.java:243)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure27.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 21 more\nCaused by: java.lang.RuntimeException: \nCan't fill element 'Religion' with value 'Other'\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:16)\n\tat com.epam.jdi.light.actions.ActionProcessor.debugAround(ActionProcessor.java:73)\n\tat com.epam.jdi.light.elements.composite.Form.fill(Form.java:98)\n\tat com.epam.jdi.light.elements.composite.Form.submit(Form.java:261)\n\tat com.epam.jdi.light.elements.composite.Form.submit_aroundBody30(Form.java:256)\n\tat com.epam.jdi.light.elements.composite.Form$AjcClosure31.run(Form.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.defaultAction(ActionHelper.java:612)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:49)\n\t... 28 more\n",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1630347919062,
+        "stop" : 1630347928635,
+        "duration" : 9573
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Home Page'(url=https://epam.github.io/JDI/index.html)",
+        "time" : {
+          "start" : 1630347923888,
+          "stop" : 1630347925124,
+          "duration" : 1236
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open 'Home Page'(url=https://epam.github.io/JDI/index.html)",
+          "time" : {
+            "start" : 1630347923906,
+            "stop" : 1630347925124,
+            "duration" : 1218
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "ba47b27d8507f0f3",
+          "name" : "Details",
+          "source" : "ba47b27d8507f0f3.html",
+          "type" : "text/plain",
+          "size" : 124
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "login",
+        "time" : {
+          "start" : 1630347925351,
+          "stop" : 1630347928635,
+          "duration" : 3284
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click on 'User Icon'",
+          "time" : {
+            "start" : 1630347925354,
+            "stop" : 1630347926125,
+            "duration" : 771
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Click on 'User Icon'",
+            "time" : {
+              "start" : 1630347925371,
+              "stop" : 1630347926125,
+              "duration" : 754
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that 'User Icon' is disabled",
+              "time" : {
+                "start" : 1630347925374,
+                "stop" : 1630347925899,
+                "duration" : 525
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "a9d7b9f371e56642",
+                "name" : "Actual result",
+                "source" : "a9d7b9f371e56642.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "2b1a0a364fc8679c",
+            "name" : "Details",
+            "source" : "2b1a0a364fc8679c.html",
+            "type" : "text/plain",
+            "size" : 38
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Fill 'Login Form' with User(name:epam; password:1234) and press 'enter'",
+          "time" : {
+            "start" : 1630347926126,
+            "stop" : 1630347928635,
+            "duration" : 2509
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Input 'epam' in 'Name'",
+            "time" : {
+              "start" : 1630347926140,
+              "stop" : 1630347926855,
+              "duration" : 715
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Input '1234' in 'Password'",
+            "time" : {
+              "start" : 1630347926864,
+              "stop" : 1630347927456,
+              "duration" : 592
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Submit 'Login Form' and press 'enter' button",
+            "time" : {
+              "start" : 1630347927457,
+              "stop" : 1630347928635,
+              "duration" : 1178
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Click on 'enter'",
+              "time" : {
+                "start" : 1630347927461,
+                "stop" : 1630347928635,
+                "duration" : 1174
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Check that 'enter' is disabled",
+                "time" : {
+                  "start" : 1630347927471,
+                  "stop" : 1630347928213,
+                  "duration" : 742
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "4fcd87c5fd248c8d",
+                  "name" : "Actual result",
+                  "source" : "4fcd87c5fd248c8d.html",
+                  "type" : "text/plain",
+                  "size" : 5
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "3e42eaa91e572d34",
+            "name" : "Details",
+            "source" : "3e42eaa91e572d34.html",
+            "type" : "text/plain",
+            "size" : 30
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "'Contact Form Page'(url=https://epam.github.io/JDI/contacts.html) should be opened",
+      "time" : {
+        "start" : 1630347928636,
+        "stop" : 1630347929532,
+        "duration" : 896
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "'Contact Form Page'(url=https://epam.github.io/JDI/contacts.html) should be opened",
+        "time" : {
+          "start" : 1630347928644,
+          "stop" : 1630347929532,
+          "duration" : 888
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open 'Contact Form Page'(url=https://epam.github.io/JDI/contacts.html)",
+          "time" : {
+            "start" : 1630347928653,
+            "stop" : 1630347929491,
+            "duration" : 838
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Contact Form Page' is opened (url CONTAINS '/contacts.html'; title EQUALS 'Contact Form')",
+          "time" : {
+            "start" : 1630347929491,
+            "stop" : 1630347929512,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4102e6b225d818ef",
+        "name" : "Details",
+        "source" : "4102e6b225d818ef.html",
+        "type" : "text/plain",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit 'Contact Form' with Contacts(name:Roman; lastName:Iovlev; acceptConditions:true; position:ChiefQA; passportNumber:4321; passportSeria:123456; description:JDI - awesome UI automation tool; gender:Female; religion:Other)",
+      "time" : {
+        "start" : 1630347929535
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Fill 'Contact Form' with Contacts(name:Roman; lastName:Iovlev; acceptConditions:true; position:ChiefQA; passportNumber:4321; passportSeria:123456; description:JDI - awesome UI automation tool; gender:Female; religion:Other) and press 'submit'",
+        "time" : {
+          "start" : 1630347929563,
+          "stop" : 1630347940050,
+          "duration" : 10487
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "Show",
+          "time" : {
+            "start" : 1630347929596,
+            "stop" : 1630347930537,
+            "duration" : 941
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Name' is visible by user",
+            "time" : {
+              "start" : 1630347929941,
+              "stop" : 1630347930537,
+              "duration" : 596
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that 'Name' is hidden",
+              "time" : {
+                "start" : 1630347929950,
+                "stop" : 1630347930338,
+                "duration" : 388
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "d084c154dad58238",
+                "name" : "Actual result",
+                "source" : "d084c154dad58238.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "43e3bf3169d89c",
+              "name" : "Actual result",
+              "source" : "43e3bf3169d89c.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input 'Roman' in 'Name'",
+          "time" : {
+            "start" : 1630347930736,
+            "stop" : 1630347931397,
+            "duration" : 661
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Last Name' is visible by user",
+          "time" : {
+            "start" : 1630347931648,
+            "stop" : 1630347932080,
+            "duration" : 432
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Last Name' is hidden",
+            "time" : {
+              "start" : 1630347931651,
+              "stop" : 1630347931884,
+              "duration" : 233
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "8d370879ff3ce489",
+              "name" : "Actual result",
+              "source" : "8d370879ff3ce489.html",
+              "type" : "text/plain",
+              "size" : 5
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "660e4e4dba3adfd8",
+            "name" : "Actual result",
+            "source" : "660e4e4dba3adfd8.html",
+            "type" : "text/plain",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input 'Iovlev' in 'Last Name'",
+          "time" : {
+            "start" : 1630347932255,
+            "stop" : 1630347932896,
+            "duration" : 641
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check 'Accept Conditions'",
+          "time" : {
+            "start" : 1630347932898,
+            "stop" : 1630347934973,
+            "duration" : 2075
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Accept Conditions' is selected",
+            "time" : {
+              "start" : 1630347932901,
+              "stop" : 1630347933749,
+              "duration" : 848
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "224facad5c703a53",
+              "name" : "Actual result",
+              "source" : "224facad5c703a53.html",
+              "type" : "text/plain",
+              "size" : 5
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Check that 'Accept Conditions label' is displayed",
+            "time" : {
+              "start" : 1630347933963,
+              "stop" : 1630347934084,
+              "duration" : 121
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "1da1e8e8b590978f",
+              "name" : "Actual result",
+              "source" : "1da1e8e8b590978f.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Click on 'Accept Conditions label'",
+            "time" : {
+              "start" : 1630347934271,
+              "stop" : 1630347934973,
+              "duration" : 702
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that 'Accept Conditions label' is disabled",
+              "time" : {
+                "start" : 1630347934277,
+                "stop" : 1630347934746,
+                "duration" : 469
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "997946bcd917b40",
+                "name" : "Actual result",
+                "source" : "997946bcd917b40.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Check that 'Position' is visible by user",
+          "time" : {
+            "start" : 1630347935174,
+            "stop" : 1630347935496,
+            "duration" : 322
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Position' is hidden",
+            "time" : {
+              "start" : 1630347935177,
+              "stop" : 1630347935340,
+              "duration" : 163
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "898f53066ff39b42",
+              "name" : "Actual result",
+              "source" : "898f53066ff39b42.html",
+              "type" : "text/plain",
+              "size" : 5
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "158d4fed5f87463d",
+            "name" : "Actual result",
+            "source" : "158d4fed5f87463d.html",
+            "type" : "text/plain",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input 'ChiefQA' in 'Position'",
+          "time" : {
+            "start" : 1630347935695,
+            "stop" : 1630347936151,
+            "duration" : 456
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Passport Number' is visible by user",
+          "time" : {
+            "start" : 1630347936358,
+            "stop" : 1630347936718,
+            "duration" : 360
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Passport Number' is hidden",
+            "time" : {
+              "start" : 1630347936362,
+              "stop" : 1630347936547,
+              "duration" : 185
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5c639ebf4baaffc9",
+              "name" : "Actual result",
+              "source" : "5c639ebf4baaffc9.html",
+              "type" : "text/plain",
+              "size" : 5
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "5525911c450d3729",
+            "name" : "Actual result",
+            "source" : "5525911c450d3729.html",
+            "type" : "text/plain",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input '4321' in 'Passport Number'",
+          "time" : {
+            "start" : 1630347936893,
+            "stop" : 1630347937378,
+            "duration" : 485
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Passport Seria' is visible by user",
+          "time" : {
+            "start" : 1630347937637,
+            "stop" : 1630347937989,
+            "duration" : 352
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check that 'Passport Seria' is hidden",
+            "time" : {
+              "start" : 1630347937640,
+              "stop" : 1630347937834,
+              "duration" : 194
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "e1cecaf30ea96d1b",
+              "name" : "Actual result",
+              "source" : "e1cecaf30ea96d1b.html",
+              "type" : "text/plain",
+              "size" : 5
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "f978cea05077e06c",
+            "name" : "Actual result",
+            "source" : "f978cea05077e06c.html",
+            "type" : "text/plain",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input '123456' in 'Passport Seria'",
+          "time" : {
+            "start" : 1630347938160,
+            "stop" : 1630347938674,
+            "duration" : 514
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Input 'JDI - awesome UI automation tool' in 'Description'",
+          "time" : {
+            "start" : 1630347938676,
+            "stop" : 1630347939257,
+            "duration" : 581
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Select 'Female' in 'Gender'",
+          "time" : {
+            "start" : 1630347939259,
+            "stop" : 1630347939735,
+            "duration" : 476
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Select 'Other' in 'Religion'",
+          "time" : {
+            "start" : 1630347939737,
+            "stop" : 1630347940049,
+            "duration" : 312
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "Select 'Other' for 'Religion'",
+            "time" : {
+              "start" : 1630347939741,
+              "stop" : 1630347940049,
+              "duration" : 308
+            },
+            "status" : "unknown",
+            "steps" : [ {
+              "name" : "Get '' text",
+              "time" : {
+                "start" : 1630347939883,
+                "stop" : 1630347939982,
+                "duration" : 99
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "b10edc48671de632",
+                "name" : "Actual result",
+                "source" : "b10edc48671de632.html",
+                "type" : "text/plain",
+                "size" : 0
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 26,
+        "attachmentsCount" : 14,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Check that 'Contact Form' is visible by user",
+        "time" : {
+          "start" : 1630347940377,
+          "stop" : 1630347940523,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check that 'Contact Form' is hidden",
+          "time" : {
+            "start" : 1630347940379,
+            "stop" : 1630347940471,
+            "duration" : 92
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e47cce83ebc27b1f",
+            "name" : "Actual result",
+            "source" : "e47cce83ebc27b1f.html",
+            "type" : "text/plain",
+            "size" : 5
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "ed5c3fdc3762301b",
+          "name" : "Actual result",
+          "source" : "ed5c3fdc3762301b.html",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Failure details",
+        "time" : {
+          "start" : 1630347941158,
+          "stop" : 1630347941159,
+          "duration" : 1
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6baf92f5ec317692",
+          "name" : "Screenshot",
+          "source" : "6baf92f5ec317692.png",
+          "type" : "image/png",
+          "size" : 77876
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b0750cc1b3733ece",
+        "name" : "Details",
+        "source" : "b0750cc1b3733ece.html",
+        "type" : "text/plain",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 30,
+      "attachmentsCount" : 18,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 48,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1630348005413,
+      "stop" : 1630348005437,
+      "duration" : 24
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.FormTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.FormTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillContactFormTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.FormTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az234-537"
+  }, {
+    "name" : "thread",
+    "value" : "4328@fv-az234-537.TestNG-test=Tests-4(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77088f4c9e197da.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,467 @@
+{
+  "uid" : "b991c79a79b7b69c",
+  "name" : "filterDataTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.filterDataTest",
+  "historyId" : "58e777cbc83c9835ea39f745df79bcd0",
+  "time" : {
+    "start" : 1630347934327,
+    "stop" : 1630347937418,
+    "duration" : 3091
+  },
+  "status" : "skipped",
+  "statusMessage" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+  "statusTrace" : "java.lang.AssertionError: expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:442)\n\tat org.mytests.tests.example.DataTableTests.filterDataTest(DataTableTests.java:48)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:835)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1630347933854,
+      "stop" : 1630347934325,
+      "duration" : 471
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1630347933855,
+        "stop" : 1630347934051,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+      "time" : {
+        "start" : 1630347934051,
+        "stop" : 1630347934325,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+        "time" : {
+          "start" : 1630347934058,
+          "stop" : 1630347934325,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "9c9aa99448bfdd3",
+        "name" : "Details",
+        "source" : "9c9aa99448bfdd3.html",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1630347913859,
+      "stop" : 1630347918898,
+      "duration" : 5039
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1630347915896,
+        "stop" : 1630347918896,
+        "duration" : 3000
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1630347918331,
+          "stop" : 1630347918892,
+          "duration" : 561
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "132cb041406b6b39",
+        "name" : "Details",
+        "source" : "132cb041406b6b39.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+    "statusTrace" : "java.lang.AssertionError: expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:442)\n\tat org.mytests.tests.example.DataTableTests.filterDataTest(DataTableTests.java:48)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:835)\n",
+    "steps" : [ {
+      "name" : "Get row '2' for 'Users' table",
+      "time" : {
+        "start" : 1630347934330,
+        "stop" : 1630347937412,
+        "duration" : 3082
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get row '2' for 'Users' table",
+        "time" : {
+          "start" : 1630347934358,
+          "stop" : 1630347937100,
+          "duration" : 2742
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'Users' header",
+          "time" : {
+            "start" : 1630347934370,
+            "stop" : 1630347935662,
+            "duration" : 1292
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'Users header' values",
+            "time" : {
+              "start" : 1630347934849,
+              "stop" : 1630347935661,
+              "duration" : 812
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Get '' text",
+              "time" : {
+                "start" : 1630347935411,
+                "stop" : 1630347935442,
+                "duration" : 31
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "22ec097eaaac165e",
+                "name" : "Actual result",
+                "source" : "22ec097eaaac165e.html",
+                "type" : "text/plain",
+                "size" : 6
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "1339d88b450020d8",
+              "name" : "Actual result",
+              "source" : "1339d88b450020d8.html",
+              "type" : "text/plain",
+              "size" : 32
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "5da9e402a09bdc6b",
+            "name" : "Actual result",
+            "source" : "5da9e402a09bdc6b.html",
+            "type" : "text/plain",
+            "size" : 32
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1630347935665,
+            "stop" : 1630347935938,
+            "duration" : 273
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1630347935773,
+              "stop" : 1630347935938,
+              "duration" : 165
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "380602d66b2b2670",
+              "name" : "Actual result",
+              "source" : "380602d66b2b2670.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "316207e4decc89cf",
+            "name" : "Actual result",
+            "source" : "316207e4decc89cf.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users line[2]' values",
+          "time" : {
+            "start" : 1630347935942,
+            "stop" : 1630347936580,
+            "duration" : 638
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "229c1031b35e5311",
+            "name" : "Actual result",
+            "source" : "229c1031b35e5311.html",
+            "type" : "text/plain",
+            "size" : 75
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "20e929793d0228e3",
+          "name" : "Actual result",
+          "source" : "20e929793d0228e3.html",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get 'Number' text",
+        "time" : {
+          "start" : 1630347937101,
+          "stop" : 1630347937199,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b6990f2bbc8e353f",
+          "name" : "Actual result",
+          "source" : "b6990f2bbc8e353f.html",
+          "type" : "text/plain",
+          "size" : 1
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get selected value",
+        "time" : {
+          "start" : 1630347937200,
+          "stop" : 1630347937298,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check that 'Type' is displayed",
+          "time" : {
+            "start" : 1630347937201,
+            "stop" : 1630347937295,
+            "duration" : 94
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e5a3e4ecb7bffa79",
+            "name" : "Actual result",
+            "source" : "e5a3e4ecb7bffa79.html",
+            "type" : "text/plain",
+            "size" : 5
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "8f28f523cb6626f8",
+          "name" : "Actual result",
+          "source" : "8f28f523cb6626f8.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get 'User' text",
+        "time" : {
+          "start" : 1630347937299,
+          "stop" : 1630347937410,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c4d7feda1f806951",
+          "name" : "Actual result",
+          "source" : "c4d7feda1f806951.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "368c8b4153bff11b",
+        "name" : "Details",
+        "source" : "368c8b4153bff11b.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "57cc4d2d0c62752a",
+        "name" : "Actual result",
+        "source" : "57cc4d2d0c62752a.html",
+        "type" : "text/plain",
+        "size" : 125
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 13,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1630348005413,
+      "stop" : 1630348005437,
+      "duration" : 24
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterDataTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az234-537"
+  }, {
+    "name" : "thread",
+    "value" : "4328@fv-az234-537.TestNG-test=Tests-2(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b991c79a79b7b69c.json",
+  "parameterValues" : [ ]
+}
