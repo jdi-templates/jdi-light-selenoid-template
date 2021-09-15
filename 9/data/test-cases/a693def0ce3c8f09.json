@@ -1,0 +1,693 @@
+{
+  "uid" : "a693def0ce3c8f09",
+  "name" : "filterDataTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.filterDataTest",
+  "historyId" : "58e777cbc83c9835ea39f745df79bcd0",
+  "time" : {
+    "start" : 1631713390782,
+    "stop" : 1631713393205,
+    "duration" : 2423
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+  "statusTrace" : "java.lang.AssertionError: expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:442)\n\tat org.mytests.tests.example.DataTableTests.filterDataTest(DataTableTests.java:48)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1631713390516,
+      "stop" : 1631713390779,
+      "duration" : 263
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1631713390517,
+        "stop" : 1631713390649,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+      "time" : {
+        "start" : 1631713390650,
+        "stop" : 1631713390778,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+        "time" : {
+          "start" : 1631713390654,
+          "stop" : 1631713390778,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "391dc8391eed8022",
+        "name" : "Details",
+        "source" : "391dc8391eed8022.html",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631713312338,
+      "stop" : 1631713318235,
+      "duration" : 5897
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1631713314594,
+        "stop" : 1631713318234,
+        "duration" : 3640
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1631713317581,
+          "stop" : 1631713318233,
+          "duration" : 652
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d1fa5d7813bb9f27",
+        "name" : "Details",
+        "source" : "d1fa5d7813bb9f27.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+    "statusTrace" : "java.lang.AssertionError: expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:442)\n\tat org.mytests.tests.example.DataTableTests.filterDataTest(DataTableTests.java:48)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "steps" : [ {
+      "name" : "Get row '2' for 'Users' table",
+      "time" : {
+        "start" : 1631713390784,
+        "stop" : 1631713393203,
+        "duration" : 2419
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get row '2' for 'Users' table",
+        "time" : {
+          "start" : 1631713390789,
+          "stop" : 1631713392970,
+          "duration" : 2181
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'Users' header",
+          "time" : {
+            "start" : 1631713390792,
+            "stop" : 1631713391850,
+            "duration" : 1058
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'Users header' values",
+            "time" : {
+              "start" : 1631713391263,
+              "stop" : 1631713391850,
+              "duration" : 587
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Get '' text",
+              "time" : {
+                "start" : 1631713391726,
+                "stop" : 1631713391755,
+                "duration" : 29
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "396a2eaa6ec5a1a9",
+                "name" : "Actual result",
+                "source" : "396a2eaa6ec5a1a9.html",
+                "type" : "text/plain",
+                "size" : 6
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "371f8127f94d86bf",
+              "name" : "Actual result",
+              "source" : "371f8127f94d86bf.html",
+              "type" : "text/plain",
+              "size" : 32
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "cc3bd1b76ffed430",
+            "name" : "Actual result",
+            "source" : "cc3bd1b76ffed430.html",
+            "type" : "text/plain",
+            "size" : 32
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1631713391851,
+            "stop" : 1631713392081,
+            "duration" : 230
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1631713391942,
+              "stop" : 1631713392081,
+              "duration" : 139
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "167143c30dfe2b12",
+              "name" : "Actual result",
+              "source" : "167143c30dfe2b12.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "803509c248aa639f",
+            "name" : "Actual result",
+            "source" : "803509c248aa639f.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users line[2]' values",
+          "time" : {
+            "start" : 1631713392083,
+            "stop" : 1631713392583,
+            "duration" : 500
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4de5ab822a9b9b6d",
+            "name" : "Actual result",
+            "source" : "4de5ab822a9b9b6d.html",
+            "type" : "text/plain",
+            "size" : 75
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "2c99709fab38f17c",
+          "name" : "Actual result",
+          "source" : "2c99709fab38f17c.html",
+          "type" : "text/plain",
+          "size" : 18
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get 'Number' text",
+        "time" : {
+          "start" : 1631713392971,
+          "stop" : 1631713393046,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "43a711b6b347bfe7",
+          "name" : "Actual result",
+          "source" : "43a711b6b347bfe7.html",
+          "type" : "text/plain",
+          "size" : 1
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get selected value",
+        "time" : {
+          "start" : 1631713393047,
+          "stop" : 1631713393117,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check that 'Type' is displayed",
+          "time" : {
+            "start" : 1631713393047,
+            "stop" : 1631713393117,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "58156d5bd52e91ec",
+            "name" : "Actual result",
+            "source" : "58156d5bd52e91ec.html",
+            "type" : "text/plain",
+            "size" : 5
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "cd03eb8fcd73e7ba",
+          "name" : "Actual result",
+          "source" : "cd03eb8fcd73e7ba.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get 'User' text",
+        "time" : {
+          "start" : 1631713393118,
+          "stop" : 1631713393199,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aedad7b266ba2422",
+          "name" : "Actual result",
+          "source" : "aedad7b266ba2422.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ee532ae096e48797",
+        "name" : "Details",
+        "source" : "ee532ae096e48797.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "92a47c3069608825",
+        "name" : "Actual result",
+        "source" : "92a47c3069608825.html",
+        "type" : "text/plain",
+        "size" : 125
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 13,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1631713443132,
+      "stop" : 1631713443179,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterDataTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az120-817"
+  }, {
+    "name" : "thread",
+    "value" : "4680@fv-az120-817.TestNG-test=Tests-2(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5767305aaa3566a8",
+      "status" : "skipped",
+      "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+      "time" : {
+        "start" : 1631713388192,
+        "stop" : 1631713390516,
+        "duration" : 2324
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 14,
+        "broken" : 0,
+        "skipped" : 17,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 31
+      },
+      "items" : [ {
+        "uid" : "ea6b8124bd11ba91",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/ea6b8124bd11ba91",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348761375,
+          "stop" : 1630348764191,
+          "duration" : 2816
+        }
+      }, {
+        "uid" : "69f0c702a995cc44",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/69f0c702a995cc44",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348685649,
+          "stop" : 1630348688577,
+          "duration" : 2928
+        }
+      }, {
+        "uid" : "a773a6ae04e33b91",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/a773a6ae04e33b91",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348540194,
+          "stop" : 1630348543037,
+          "duration" : 2843
+        }
+      }, {
+        "uid" : "cca5fa5d51f84682",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/cca5fa5d51f84682",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348454271,
+          "stop" : 1630348457311,
+          "duration" : 3040
+        }
+      }, {
+        "uid" : "4636d84fe35cf9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/4636d84fe35cf9",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348310067,
+          "stop" : 1630348312764,
+          "duration" : 2697
+        }
+      }, {
+        "uid" : "69e26c0b1a7cb9ef",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/69e26c0b1a7cb9ef",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348210918,
+          "stop" : 1630348213839,
+          "duration" : 2921
+        }
+      }, {
+        "uid" : "304cf570595794e4",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/304cf570595794e4",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630348089813,
+          "stop" : 1630348092494,
+          "duration" : 2681
+        }
+      }, {
+        "uid" : "3ace474d96977042",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/3ace474d96977042",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630347937799,
+          "stop" : 1630347940622,
+          "duration" : 2823
+        }
+      }, {
+        "uid" : "b8fe522db50ba00f",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/b8fe522db50ba00f",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630347889966,
+          "stop" : 1630347892759,
+          "duration" : 2793
+        }
+      }, {
+        "uid" : "98dd0b440e18b6f7",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/98dd0b440e18b6f7",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630347702058,
+          "stop" : 1630347705366,
+          "duration" : 3308
+        }
+      }, {
+        "uid" : "2a51b4d3914be0e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/2a51b4d3914be0e",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630347451994,
+          "stop" : 1630347454880,
+          "duration" : 2886
+        }
+      }, {
+        "uid" : "ee0b8e82d64a76a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/ee0b8e82d64a76a",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630347217015,
+          "stop" : 1630347219738,
+          "duration" : 2723
+        }
+      }, {
+        "uid" : "fe52d7f2ac3220b5",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/fe52d7f2ac3220b5",
+        "status" : "failed",
+        "statusDetails" : "expected [MarvelUserInfo(number:2; type:User; user:Sergey Ivan; description:Spider Man:Dude)] but found [MarvelUserInfo(number:1; type:Admin; user:Roman; description:MarvelUser.description (smart: #ui-element>smart: #description))]",
+        "time" : {
+          "start" : 1630346993489,
+          "stop" : 1630346996622,
+          "duration" : 3133
+        }
+      }, {
+        "uid" : "f9e8d7c0d16735d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/f9e8d7c0d16735d",
+        "status" : "skipped",
+        "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073841270,
+          "stop" : 1630073841271,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "83309f73d3a9473d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/83309f73d3a9473d",
+        "status" : "skipped",
+        "statusDetails" : "[13:54.40] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073634098,
+          "stop" : 1630073634098,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ae307a4be0480fa8",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/ae307a4be0480fa8",
+        "status" : "skipped",
+        "statusDetails" : "[10:35.287] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073435532,
+          "stop" : 1630073435532,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a9c645a1d6b08762",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/a9c645a1d6b08762",
+        "status" : "skipped",
+        "statusDetails" : "[06:57.531] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073217971,
+          "stop" : 1630073217971,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11d5bef58bf0b000",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/11d5bef58bf0b000",
+        "status" : "skipped",
+        "statusDetails" : "[03:27.557] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073007806,
+          "stop" : 1630073007806,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "74d1c2eff5a82b07",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/74d1c2eff5a82b07",
+        "status" : "skipped",
+        "statusDetails" : "[00:04.852] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630072804997,
+          "stop" : 1630072804997,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9b7b732bacbeb503",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/9b7b732bacbeb503",
+        "status" : "skipped",
+        "statusDetails" : "[56:53.707] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630072613737,
+          "stop" : 1630072613737,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a693def0ce3c8f09.json",
+  "parameterValues" : [ ]
+}
