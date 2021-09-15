@@ -1,0 +1,700 @@
+{
+  "uid" : "bafac30fbbf49339",
+  "name" : "menuTest",
+  "fullName" : "org.mytests.tests.example.MenuTests.menuTest",
+  "historyId" : "86ac47dc43d50dc3cc9322d4ef366dd0",
+  "time" : {
+    "start" : 1631715619694,
+    "stop" : 1631715627526,
+    "duration" : 7832
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631715535256,
+      "stop" : 1631715540297,
+      "duration" : 5041
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1631715537247,
+        "stop" : 1631715540292,
+        "duration" : 3045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1631715539513,
+          "stop" : 1631715540291,
+          "duration" : 778
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8a8f6200e3779ade",
+        "name" : "Details",
+        "source" : "8a8f6200e3779ade.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1631715619695,
+        "stop" : 1631715619792,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "'Home Page'(url=https://epam.github.io/JDI/index.html) should be opened",
+      "time" : {
+        "start" : 1631715619792,
+        "stop" : 1631715620044,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "'Home Page'(url=https://epam.github.io/JDI/index.html) should be opened",
+        "time" : {
+          "start" : 1631715619800,
+          "stop" : 1631715620044,
+          "duration" : 244
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open 'Home Page'(url=https://epam.github.io/JDI/index.html)",
+          "time" : {
+            "start" : 1631715619804,
+            "stop" : 1631715620023,
+            "duration" : 219
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Home Page' is opened (url CONTAINS '/index.html'; title EQUALS 'Home Page')",
+          "time" : {
+            "start" : 1631715620024,
+            "stop" : 1631715620043,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "cdc96838d5710058",
+        "name" : "Details",
+        "source" : "cdc96838d5710058.html",
+        "type" : "text/plain",
+        "size" : 124
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select '[Service, Dates]' in 'Left Menu'",
+      "time" : {
+        "start" : 1631715620044,
+        "stop" : 1631715623047,
+        "duration" : 3003
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select ([Service, Dates]) for 'Left Menu'",
+        "time" : {
+          "start" : 1631715620049,
+          "stop" : 1631715623047,
+          "duration" : 2998
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Select 'Service' for 'Left Menu'",
+          "time" : {
+            "start" : 1631715620050,
+            "stop" : 1631715621264,
+            "duration" : 1214
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get '' text",
+            "time" : {
+              "start" : 1631715620896,
+              "stop" : 1631715620971,
+              "duration" : 75
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "ba484fbe91b54a4d",
+              "name" : "Actual result",
+              "source" : "ba484fbe91b54a4d.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Click on ''",
+            "time" : {
+              "start" : 1631715621090,
+              "stop" : 1631715621264,
+              "duration" : 174
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that '' is disabled",
+              "time" : {
+                "start" : 1631715621095,
+                "stop" : 1631715621154,
+                "duration" : 59
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "1085bb78f4dab67e",
+                "name" : "Actual result",
+                "source" : "1085bb78f4dab67e.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Select 'Dates' for 'Left Menu'",
+          "time" : {
+            "start" : 1631715621265,
+            "stop" : 1631715623047,
+            "duration" : 1782
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ea9b5b175f999f43",
+        "name" : "Details",
+        "source" : "ea9b5b175f999f43.html",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check that 'Dates Page' is opened (url CONTAINS '/dates.html'; title EQUALS 'Dates')",
+      "time" : {
+        "start" : 1631715623047,
+        "stop" : 1631715623077,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbbc5acc1bf36cb6",
+        "name" : "Details",
+        "source" : "bbbc5acc1bf36cb6.html",
+        "type" : "text/plain",
+        "size" : 120
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select '[ElementsPacks, HTML5]' in 'Left Menu'",
+      "time" : {
+        "start" : 1631715623078,
+        "stop" : 1631715627506,
+        "duration" : 4428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select ([ElementsPacks, HTML5]) for 'Left Menu'",
+        "time" : {
+          "start" : 1631715623083,
+          "stop" : 1631715627506,
+          "duration" : 4423
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Select 'Elements packs' for 'Left Menu'",
+          "time" : {
+            "start" : 1631715623085,
+            "stop" : 1631715625321,
+            "duration" : 2236
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get '' text",
+            "time" : {
+              "start" : 1631715624162,
+              "stop" : 1631715624240,
+              "duration" : 78
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "6c0ddff1f73df305",
+              "name" : "Actual result",
+              "source" : "6c0ddff1f73df305.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Click on ''",
+            "time" : {
+              "start" : 1631715625144,
+              "stop" : 1631715625321,
+              "duration" : 177
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that '' is disabled",
+              "time" : {
+                "start" : 1631715625148,
+                "stop" : 1631715625209,
+                "duration" : 61
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "872511da683d7f2a",
+                "name" : "Actual result",
+                "source" : "872511da683d7f2a.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Select 'HTML 5' for 'Left Menu'",
+          "time" : {
+            "start" : 1631715625322,
+            "stop" : 1631715627506,
+            "duration" : 2184
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9fdec6bd6b21fb4c",
+        "name" : "Details",
+        "source" : "9fdec6bd6b21fb4c.html",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check that 'Html5 Page' is opened (url CONTAINS '/html5.html'; title EQUALS 'HTML 5')",
+      "time" : {
+        "start" : 1631715627507,
+        "stop" : 1631715627525,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19f31e2b00acd402",
+        "name" : "Details",
+        "source" : "19f31e2b00acd402.html",
+        "type" : "text/plain",
+        "size" : 121
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1631715627641,
+      "stop" : 1631715627669,
+      "duration" : 28
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "menuTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-752"
+  }, {
+    "name" : "thread",
+    "value" : "4414@fv-az72-752.TestNG-test=Tests-3(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 17,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 38
+      },
+      "items" : [ {
+        "uid" : "a606335937dfd581",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/a606335937dfd581",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631715313846,
+          "stop" : 1631715321673,
+          "duration" : 7827
+        }
+      }, {
+        "uid" : "9cf76a482f77469c",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/9cf76a482f77469c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631715067574,
+          "stop" : 1631715076248,
+          "duration" : 8674
+        }
+      }, {
+        "uid" : "8f58e1b2a9483d9b",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/8f58e1b2a9483d9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631714812393,
+          "stop" : 1631714820594,
+          "duration" : 8201
+        }
+      }, {
+        "uid" : "84ba31e7a742d7b4",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/84ba31e7a742d7b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631714204318,
+          "stop" : 1631714213189,
+          "duration" : 8871
+        }
+      }, {
+        "uid" : "54908c0b4ead482b",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/54908c0b4ead482b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631713937394,
+          "stop" : 1631713946695,
+          "duration" : 9301
+        }
+      }, {
+        "uid" : "5cfb875f3cd232de",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/5cfb875f3cd232de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631713718898,
+          "stop" : 1631713728647,
+          "duration" : 9749
+        }
+      }, {
+        "uid" : "ba73be18bd66e068",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/ba73be18bd66e068",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631713346165,
+          "stop" : 1631713356066,
+          "duration" : 9901
+        }
+      }, {
+        "uid" : "a02edf59789d04e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/a02edf59789d04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348820190,
+          "stop" : 1630348828318,
+          "duration" : 8128
+        }
+      }, {
+        "uid" : "9e4ff16d48b35265",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/9e4ff16d48b35265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348745193,
+          "stop" : 1630348753428,
+          "duration" : 8235
+        }
+      }, {
+        "uid" : "51a318c29b5de021",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/51a318c29b5de021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348597498,
+          "stop" : 1630348604746,
+          "duration" : 7248
+        }
+      }, {
+        "uid" : "37db456188db794e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/37db456188db794e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348512712,
+          "stop" : 1630348520758,
+          "duration" : 8046
+        }
+      }, {
+        "uid" : "e8449a0e9b2883c5",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/e8449a0e9b2883c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348314962,
+          "stop" : 1630348323836,
+          "duration" : 8874
+        }
+      }, {
+        "uid" : "3cd83d5fd189ddc1",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/3cd83d5fd189ddc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348218359,
+          "stop" : 1630348227489,
+          "duration" : 9130
+        }
+      }, {
+        "uid" : "377054429e5e0a04",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/377054429e5e0a04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630348149196,
+          "stop" : 1630348156833,
+          "duration" : 7637
+        }
+      }, {
+        "uid" : "c63967b9eacd574c",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/c63967b9eacd574c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347997070,
+          "stop" : 1630348005296,
+          "duration" : 8226
+        }
+      }, {
+        "uid" : "61c7cb2945c2b506",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/61c7cb2945c2b506",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347896536,
+          "stop" : 1630347905155,
+          "duration" : 8619
+        }
+      }, {
+        "uid" : "abc6a94dc663763",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/abc6a94dc663763",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347761323,
+          "stop" : 1630347770022,
+          "duration" : 8699
+        }
+      }, {
+        "uid" : "5d015b78d40d1d13",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/5d015b78d40d1d13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347456815,
+          "stop" : 1630347465127,
+          "duration" : 8312
+        }
+      }, {
+        "uid" : "aa28d89710059f13",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/aa28d89710059f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347276327,
+          "stop" : 1630347284191,
+          "duration" : 7864
+        }
+      }, {
+        "uid" : "a403002c62aa7e43",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/a403002c62aa7e43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630347052884,
+          "stop" : 1630347061002,
+          "duration" : 8118
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bafac30fbbf49339.json",
+  "parameterValues" : [ ]
+}
