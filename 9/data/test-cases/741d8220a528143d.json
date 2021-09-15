@@ -1,0 +1,552 @@
+{
+  "uid" : "741d8220a528143d",
+  "name" : "dataTableTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.dataTableTest",
+  "historyId" : "8caaf964f7e0f47747b02ce5679c7858",
+  "time" : {
+    "start" : 1631715302679,
+    "stop" : 1631715304462,
+    "duration" : 1783
+  },
+  "status" : "failed",
+  "statusMessage" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+  "statusTrace" : "java.lang.AssertionError: Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:831)\n\tat org.testng.Assert.assertEquals(Assert.java:796)\n\tat org.mytests.tests.example.DataTableTests.dataTableTest(DataTableTests.java:31)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1631715302126,
+      "stop" : 1631715302677,
+      "duration" : 551
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1631715302128,
+        "stop" : 1631715302317,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+      "time" : {
+        "start" : 1631715302317,
+        "stop" : 1631715302677,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+        "time" : {
+          "start" : 1631715302333,
+          "stop" : 1631715302677,
+          "duration" : 344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "5a06b62f379ddcde",
+        "name" : "Details",
+        "source" : "5a06b62f379ddcde.html",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631715287057,
+      "stop" : 1631715291020,
+      "duration" : 3963
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1631715288665,
+        "stop" : 1631715291019,
+        "duration" : 2354
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1631715290535,
+          "stop" : 1631715291019,
+          "duration" : 484
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "5568c7b7c790a2ff",
+        "name" : "Details",
+        "source" : "5568c7b7c790a2ff.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+    "statusTrace" : "java.lang.AssertionError: Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\n\tat org.testng.Assert.assertEquals(Assert.java:831)\n\tat org.testng.Assert.assertEquals(Assert.java:796)\n\tat org.mytests.tests.example.DataTableTests.dataTableTest(DataTableTests.java:31)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\n",
+    "steps" : [ {
+      "name" : "Get 'Users' rows count",
+      "time" : {
+        "start" : 1631715303198,
+        "stop" : 1631715303454,
+        "duration" : 256
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+        "time" : {
+          "start" : 1631715303315,
+          "stop" : 1631715303453,
+          "duration" : 138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "564e1506687f4e07",
+          "name" : "Actual result",
+          "source" : "564e1506687f4e07.html",
+          "type" : "text/plain",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2b2ee36509d728fa",
+        "name" : "Details",
+        "source" : "2b2ee36509d728fa.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "237b51592676663a",
+        "name" : "Actual result",
+        "source" : "237b51592676663a.html",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get 'Users' header",
+      "time" : {
+        "start" : 1631715303455,
+        "stop" : 1631715304460,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get 'Users header' values",
+        "time" : {
+          "start" : 1631715303941,
+          "stop" : 1631715304457,
+          "duration" : 516
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get '' text",
+          "time" : {
+            "start" : 1631715304347,
+            "stop" : 1631715304386,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "fe276f92de2d3020",
+            "name" : "Actual result",
+            "source" : "fe276f92de2d3020.html",
+            "type" : "text/plain",
+            "size" : 6
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "7af983d4407ef7b1",
+          "name" : "Actual result",
+          "source" : "7af983d4407ef7b1.html",
+          "type" : "text/plain",
+          "size" : 32
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e9e19560c8407e25",
+        "name" : "Details",
+        "source" : "e9e19560c8407e25.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "4f228dc912268e2a",
+        "name" : "Actual result",
+        "source" : "4f228dc912268e2a.html",
+        "type" : "text/plain",
+        "size" : 32
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1631715378255,
+      "stop" : 1631715378287,
+      "duration" : 32
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "dataTableTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az120-817"
+  }, {
+    "name" : "thread",
+    "value" : "4441@fv-az120-817.TestNG-test=Tests-2(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "754e316a624bfbf6",
+      "status" : "skipped",
+      "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+      "time" : {
+        "start" : 1631715299298,
+        "stop" : 1631715302119,
+        "duration" : 2821
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 20,
+        "broken" : 0,
+        "skipped" : 17,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 37
+      },
+      "items" : [ {
+        "uid" : "92bdbcfe8fd8f210",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/92bdbcfe8fd8f210",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631715055716,
+          "stop" : 1631715058117,
+          "duration" : 2401
+        }
+      }, {
+        "uid" : "c845bb19118d5d1a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/c845bb19118d5d1a",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631714801350,
+          "stop" : 1631714803095,
+          "duration" : 1745
+        }
+      }, {
+        "uid" : "13a14f6bb42fa427",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/13a14f6bb42fa427",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631714190948,
+          "stop" : 1631714193173,
+          "duration" : 2225
+        }
+      }, {
+        "uid" : "d7e3ca765dcbc044",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/d7e3ca765dcbc044",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631713923058,
+          "stop" : 1631713925106,
+          "duration" : 2048
+        }
+      }, {
+        "uid" : "ae07af5a510ef21d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/ae07af5a510ef21d",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631713653232,
+          "stop" : 1631713655566,
+          "duration" : 2334
+        }
+      }, {
+        "uid" : "8ec521aad72fabe6",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9//#testresult/8ec521aad72fabe6",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1631713385881,
+          "stop" : 1631713387906,
+          "duration" : 2025
+        }
+      }, {
+        "uid" : "beb42e35f4c6cc39",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/beb42e35f4c6cc39",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348755638,
+          "stop" : 1630348757837,
+          "duration" : 2199
+        }
+      }, {
+        "uid" : "a8d6b5a76fcddfa9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/a8d6b5a76fcddfa9",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348679384,
+          "stop" : 1630348681525,
+          "duration" : 2141
+        }
+      }, {
+        "uid" : "f93edfbc2b4d81b9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/f93edfbc2b4d81b9",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348533774,
+          "stop" : 1630348535847,
+          "duration" : 2073
+        }
+      }, {
+        "uid" : "27b5aa2ba3f29742",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/27b5aa2ba3f29742",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348447949,
+          "stop" : 1630348450180,
+          "duration" : 2231
+        }
+      }, {
+        "uid" : "35e51ff576fcdca3",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/35e51ff576fcdca3",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348304194,
+          "stop" : 1630348306092,
+          "duration" : 1898
+        }
+      }, {
+        "uid" : "52eeb21ca9d006b1",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/52eeb21ca9d006b1",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348204248,
+          "stop" : 1630348206445,
+          "duration" : 2197
+        }
+      }, {
+        "uid" : "d3c3a6446b6b7aac",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/d3c3a6446b6b7aac",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630348084234,
+          "stop" : 1630348086310,
+          "duration" : 2076
+        }
+      }, {
+        "uid" : "1fe9abfdb472d48d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/1fe9abfdb472d48d",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630347931911,
+          "stop" : 1630347933840,
+          "duration" : 1929
+        }
+      }, {
+        "uid" : "8f803fe36b7d44a9",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/7//#testresult/8f803fe36b7d44a9",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630347884173,
+          "stop" : 1630347886121,
+          "duration" : 1948
+        }
+      }, {
+        "uid" : "e97ccd9c795b6d96",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/e97ccd9c795b6d96",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630347695674,
+          "stop" : 1630347697965,
+          "duration" : 2291
+        }
+      }, {
+        "uid" : "d9d7781e965efaab",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/d9d7781e965efaab",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630347446231,
+          "stop" : 1630347448178,
+          "duration" : 1947
+        }
+      }, {
+        "uid" : "3b30b09f4def740d",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/3b30b09f4def740d",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630347211066,
+          "stop" : 1630347213212,
+          "duration" : 2146
+        }
+      }, {
+        "uid" : "3175cec3fbae894b",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/6//#testresult/3175cec3fbae894b",
+        "status" : "failed",
+        "statusDetails" : "Lists differ at element [3]: Description != Desciption expected [Description] but found [Desciption]",
+        "time" : {
+          "start" : 1630346987400,
+          "stop" : 1630346989579,
+          "duration" : 2179
+        }
+      }, {
+        "uid" : "bfcfd454a16645d1",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5//#testresult/bfcfd454a16645d1",
+        "status" : "skipped",
+        "statusDetails" : "[17:20.943] Failed to execute 'Form.submit' for element 'Login Form' during '0' seconds. Failed to fill element 'Name' (locator: smart: [data-testid='name']) with value 'epam'",
+        "time" : {
+          "start" : 1630073841247,
+          "stop" : 1630073841247,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "741d8220a528143d.json",
+  "parameterValues" : [ ]
+}

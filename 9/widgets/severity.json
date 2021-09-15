@@ -1,130 +1,130 @@
 [ {
-  "uid" : "b78f0e123879b176",
-  "name" : "fillContactFormTest",
-  "time" : {
-    "start" : 1631715117871,
-    "stop" : 1631715125088,
-    "duration" : 7217
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "52991b032b75f7db",
-  "name" : "loginTest",
-  "time" : {
-    "start" : 1631715130195,
-    "stop" : 1631715133330,
-    "duration" : 3135
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68cb11df3f436009",
+  "uid" : "835c2447a21d8c78",
   "name" : "filterDataTest",
   "time" : {
-    "start" : 1631715062127,
-    "stop" : 1631715064772,
-    "duration" : 2645
+    "start" : 1631715307952,
+    "stop" : 1631715310585,
+    "duration" : 2633
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "92bdbcfe8fd8f210",
-  "name" : "dataTableTest",
-  "time" : {
-    "start" : 1631715055716,
-    "stop" : 1631715058117,
-    "duration" : 2401
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8f3635841e36c1e",
-  "name" : "bigDropdownTest",
-  "time" : {
-    "start" : 1631715052967,
-    "stop" : 1631715059480,
-    "duration" : 6513
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "102e2b5d0e328f25",
-  "name" : "fillContactsTest",
-  "time" : {
-    "start" : 1631715127735,
-    "stop" : 1631715130193,
-    "duration" : 2458
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a1bb315bbc64b43f",
-  "name" : "longTextTest",
-  "time" : {
-    "start" : 1631715065639,
-    "stop" : 1631715065778,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "83254752e3b65966",
-  "name" : "tableAssertsTest",
-  "time" : {
-    "start" : 1631715104087,
-    "stop" : 1631715116767,
-    "duration" : 12680
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "60791ff2172ea66f",
-  "name" : "customMenuTest",
-  "time" : {
-    "start" : 1631715043065,
-    "stop" : 1631715067568,
-    "duration" : 24503
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cf76a482f77469c",
-  "name" : "menuTest",
-  "time" : {
-    "start" : 1631715067574,
-    "stop" : 1631715076248,
-    "duration" : 8674
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "462404b47ea05edc",
-  "name" : "hugeTableValidateTest",
-  "time" : {
-    "start" : 1631715064828,
-    "stop" : 1631715065507,
-    "duration" : 679
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "52346ef1e22cb74e",
-  "name" : "hugeTableSearchTest",
-  "time" : {
-    "start" : 1631715059661,
-    "stop" : 1631715063690,
-    "duration" : 4029
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c128a83a7e3a135",
+  "uid" : "b430018d773e8291",
   "name" : "filterLinesTest",
   "time" : {
-    "start" : 1631715078690,
-    "stop" : 1631715091206,
-    "duration" : 12516
+    "start" : 1631715323851,
+    "stop" : 1631715336409,
+    "duration" : 12558
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be551f764b202061",
+  "name" : "tableAssertsTest",
+  "time" : {
+    "start" : 1631715349216,
+    "stop" : 1631715360971,
+    "duration" : 11755
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "448c183527e8fc8",
+  "name" : "hugeTableSearchTest",
+  "time" : {
+    "start" : 1631715305071,
+    "stop" : 1631715308860,
+    "duration" : 3789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a606335937dfd581",
+  "name" : "menuTest",
+  "time" : {
+    "start" : 1631715313846,
+    "stop" : 1631715321673,
+    "duration" : 7827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8aad3a425f81751",
+  "name" : "fillContactFormTest",
+  "time" : {
+    "start" : 1631715364198,
+    "stop" : 1631715370534,
+    "duration" : 6336
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "22aefa3f85456662",
+  "name" : "hugeTableValidateTest",
+  "time" : {
+    "start" : 1631715309822,
+    "stop" : 1631715310342,
+    "duration" : 520
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5502f3f6f8c2582c",
+  "name" : "fillContactsTest",
+  "time" : {
+    "start" : 1631715372952,
+    "stop" : 1631715375301,
+    "duration" : 2349
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18c7d6979395f4",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1631715375303,
+    "stop" : 1631715378128,
+    "duration" : 2825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f77c042f3e5770c1",
+  "name" : "longTextTest",
+  "time" : {
+    "start" : 1631715310503,
+    "stop" : 1631715310633,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "107fef52616eb5c2",
+  "name" : "customMenuTest",
+  "time" : {
+    "start" : 1631715291161,
+    "stop" : 1631715313844,
+    "duration" : 22683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c466d052af43310",
+  "name" : "bigDropdownTest",
+  "time" : {
+    "start" : 1631715299301,
+    "stop" : 1631715304935,
+    "duration" : 5634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "741d8220a528143d",
+  "name" : "dataTableTest",
+  "time" : {
+    "start" : 1631715302679,
+    "stop" : 1631715304462,
+    "duration" : 1783
   },
   "status" : "failed",
   "severity" : "normal"

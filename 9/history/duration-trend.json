@@ -3,6 +3,13 @@
   "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 86967
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 90265
   }
 }, {
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 86094
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "https://jdi-templates.github.io/jdi-light-selenoid-template/5/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 60346
   }
 } ]
