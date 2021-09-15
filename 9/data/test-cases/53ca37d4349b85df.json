@@ -1,0 +1,585 @@
+{
+  "uid" : "53ca37d4349b85df",
+  "name" : "filterLinesTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.filterLinesTest",
+  "historyId" : "c38730790032178fa9356f7560e34ca8",
+  "time" : {
+    "start" : 1631713932665,
+    "stop" : 1631713945974,
+    "duration" : 13309
+  },
+  "status" : "skipped",
+  "statusMessage" : "[52:25.973] Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 Expected: is \"2\"\n     but: was \"1\"",
+  "statusTrace" : "java.lang.AssertionError: [52:25.973] Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 Expected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:27)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.TextAssert.text(TextAssert.java:17)\n\tat org.mytests.tests.example.DataTableTests.validateUserRow(DataTableTests.java:90)\n\tat org.mytests.tests.example.DataTableTests.filterLinesTest(DataTableTests.java:74)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:844)\nCaused by: java.lang.AssertionError: Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 \nExpected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:27)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 16 more\nCaused by: java.lang.AssertionError: 52:25.332 \nExpected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.asserts.core.SoftAssert.jdiAssert(SoftAssert.java:48)\n\tat com.epam.jdi.light.asserts.core.SoftAssert.jdiAssert(SoftAssert.java:59)\n\tat com.epam.jdi.light.asserts.generic.TextAssert.text_aroundBody0(TextAssert.java:18)\n\tat com.epam.jdi.light.asserts.generic.TextAssert$AjcClosure1.run(TextAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 17 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1631713932285,
+      "stop" : 1631713932664,
+      "duration" : 379
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1631713932285,
+        "stop" : 1631713932420,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+      "time" : {
+        "start" : 1631713932421,
+        "stop" : 1631713932664,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Users Page'(url=https://epam.github.io/JDI/user-table.html)",
+        "time" : {
+          "start" : 1631713932426,
+          "stop" : 1631713932664,
+          "duration" : 238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "46851e610ea4d815",
+        "name" : "Details",
+        "source" : "46851e610ea4d815.html",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631713905674,
+      "stop" : 1631713910469,
+      "duration" : 4795
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+      "time" : {
+        "start" : 1631713907775,
+        "stop" : 1631713910463,
+        "duration" : 2688
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'SiteJdi'(url=https://epam.github.io/JDI/)",
+        "time" : {
+          "start" : 1631713909831,
+          "stop" : 1631713910463,
+          "duration" : 632
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d1842c6181be23bd",
+        "name" : "Details",
+        "source" : "d1842c6181be23bd.html",
+        "type" : "text/plain",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "[52:25.973] Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 Expected: is \"2\"\n     but: was \"1\"",
+    "statusTrace" : "java.lang.AssertionError: [52:25.973] Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 Expected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:27)\n\tat com.epam.jdi.light.actions.ActionHelper.actionFailed(ActionHelper.java:383)\n\tat com.epam.jdi.tools.func.JFunc2.execute(JFunc2.java:19)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:55)\n\tat com.epam.jdi.light.asserts.generic.TextAssert.text(TextAssert.java:17)\n\tat org.mytests.tests.example.DataTableTests.validateUserRow(DataTableTests.java:90)\n\tat org.mytests.tests.example.DataTableTests.filterLinesTest(DataTableTests.java:74)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:844)\nCaused by: java.lang.AssertionError: Failed to execute 'TextAssert.text' for element 'Number(smart: #ui-element>smart: #number)' during '10' seconds. 52:25.332 \nExpected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.common.Exceptions.exception(Exceptions.java:27)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:638)\n\tat com.epam.jdi.light.actions.ActionProcessor.jdiAround(ActionProcessor.java:48)\n\t... 16 more\nCaused by: java.lang.AssertionError: 52:25.332 \nExpected: is \"2\"\n     but: was \"1\"\n\tat com.epam.jdi.light.asserts.core.SoftAssert.jdiAssert(SoftAssert.java:48)\n\tat com.epam.jdi.light.asserts.core.SoftAssert.jdiAssert(SoftAssert.java:59)\n\tat com.epam.jdi.light.asserts.generic.TextAssert.text_aroundBody0(TextAssert.java:18)\n\tat com.epam.jdi.light.asserts.generic.TextAssert$AjcClosure1.run(TextAssert.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\n\tat com.epam.jdi.light.actions.ActionObject.execute(ActionObject.java:60)\n\tat com.epam.jdi.light.actions.ActionHelper.stableAction(ActionHelper.java:626)\n\t... 17 more\n",
+    "steps" : [ {
+      "name" : "Get row '2' for 'Users' table",
+      "time" : {
+        "start" : 1631713932669,
+        "stop" : 1631713935257,
+        "duration" : 2588
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get row '2' for 'Users' table",
+        "time" : {
+          "start" : 1631713932682,
+          "stop" : 1631713934879,
+          "duration" : 2197
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get 'Users' header",
+          "time" : {
+            "start" : 1631713932684,
+            "stop" : 1631713933936,
+            "duration" : 1252
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'Users header' values",
+            "time" : {
+              "start" : 1631713933211,
+              "stop" : 1631713933935,
+              "duration" : 724
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Get '' text",
+              "time" : {
+                "start" : 1631713933759,
+                "stop" : 1631713933794,
+                "duration" : 35
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "3ac7ae3b8441b3fa",
+                "name" : "Actual result",
+                "source" : "3ac7ae3b8441b3fa.html",
+                "type" : "text/plain",
+                "size" : 6
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "eb76cfd6d6375ad",
+              "name" : "Actual result",
+              "source" : "eb76cfd6d6375ad.html",
+              "type" : "text/plain",
+              "size" : 32
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "91a9054bec815545",
+            "name" : "Actual result",
+            "source" : "91a9054bec815545.html",
+            "type" : "text/plain",
+            "size" : 32
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users' rows count",
+          "time" : {
+            "start" : 1631713933937,
+            "stop" : 1631713934207,
+            "duration" : 270
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get 'xpath='//tbody//tr[1]/td'' values",
+            "time" : {
+              "start" : 1631713934052,
+              "stop" : 1631713934206,
+              "duration" : 154
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5d8e409cba9a7327",
+              "name" : "Actual result",
+              "source" : "5d8e409cba9a7327.html",
+              "type" : "text/plain",
+              "size" : 2
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "8a50eb610b5b7cd8",
+            "name" : "Actual result",
+            "source" : "8a50eb610b5b7cd8.html",
+            "type" : "text/plain",
+            "size" : 1
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Get 'Users line[2]' values",
+          "time" : {
+            "start" : 1631713934209,
+            "stop" : 1631713934879,
+            "duration" : 670
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a31afef6fda039c6",
+            "name" : "Actual result",
+            "source" : "a31afef6fda039c6.html",
+            "type" : "text/plain",
+            "size" : 75
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "4a43c18ecd1af4af",
+          "name" : "Actual result",
+          "source" : "4a43c18ecd1af4af.html",
+          "type" : "text/plain",
+          "size" : 98
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4e92d11af18128c6",
+        "name" : "Details",
+        "source" : "4e92d11af18128c6.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "fa1b4c94ed50825f",
+        "name" : "Actual result",
+        "source" : "fa1b4c94ed50825f.html",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select 'Admin' in 'Type'",
+      "time" : {
+        "start" : 1631713935258,
+        "stop" : 1631713935326,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select 'Admin' in 'Type'",
+        "time" : {
+          "start" : 1631713935263,
+          "stop" : 1631713935326,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "9feffe3898bca417",
+        "name" : "Details",
+        "source" : "9feffe3898bca417.html",
+        "type" : "text/plain",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get selected value",
+      "time" : {
+        "start" : 1631713935327,
+        "stop" : 1631713935398,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check that 'Type' is displayed",
+        "time" : {
+          "start" : 1631713935337,
+          "stop" : 1631713935397,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get selected value",
+          "time" : {
+            "start" : 1631713935337,
+            "stop" : 1631713935396,
+            "duration" : 59
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "68e5c5bd5720edc9",
+            "name" : "Actual result",
+            "source" : "68e5c5bd5720edc9.html",
+            "type" : "text/plain",
+            "size" : 5
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "61bb7f4d823349ee",
+          "name" : "Actual result",
+          "source" : "61bb7f4d823349ee.html",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f360350959cd6b2",
+        "name" : "Details",
+        "source" : "f360350959cd6b2.html",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "ea82afb3fddf30c4",
+        "name" : "Actual result",
+        "source" : "ea82afb3fddf30c4.html",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select 'User' in 'Type'",
+      "time" : {
+        "start" : 1631713935399,
+        "stop" : 1631713935509,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select 'User' in 'Type'",
+        "time" : {
+          "start" : 1631713935408,
+          "stop" : 1631713935509,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "314e49dd446be804",
+        "name" : "Details",
+        "source" : "314e49dd446be804.html",
+        "type" : "text/plain",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert that 'Number' text is \"2\"",
+      "time" : {
+        "start" : 1631713935510
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Get 'Number' text",
+        "time" : {
+          "start" : 1631713935515,
+          "stop" : 1631713935598,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2c74f6edf0ce04d",
+          "name" : "Actual result",
+          "source" : "f2c74f6edf0ce04d.html",
+          "type" : "text/plain",
+          "size" : 1
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Failure details",
+        "time" : {
+          "start" : 1631713945967,
+          "stop" : 1631713945969,
+          "duration" : 2
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "739f14ebe3ca1037",
+          "name" : "Screenshot",
+          "source" : "739f14ebe3ca1037.png",
+          "type" : "image/png",
+          "size" : 145674
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b9de8643faed2338",
+        "name" : "Details",
+        "source" : "b9de8643faed2338.html",
+        "type" : "text/plain",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 18,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1631714001479,
+      "stop" : 1631714001504,
+      "duration" : 25
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "filterLinesTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.DataTableTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az174-298"
+  }, {
+    "name" : "thread",
+    "value" : "4470@fv-az174-298.TestNG-test=Tests-2(19)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53ca37d4349b85df.json",
+  "parameterValues" : [ ]
+}
