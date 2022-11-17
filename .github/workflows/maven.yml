@@ -64,7 +64,8 @@ jobs:
       - name: Tests
         id: functests
         timeout-minutes: 10
-        run: mvn -Ddriver=chrome test -Pci ${{ env.ASPECT_ARGS }} -ntp
+        continue-on-error: true
+        run: mvn -Ddriver=chrome test -Pci ${{ env.ASPECT_ARGS }} -ntp --fail-at-end
 
       - name: Get Allure history
         uses: actions/checkout@v2
