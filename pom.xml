@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <aspectj.version>1.9.9.1</aspectj.version>
+        <aspectj.version>1.9.7</aspectj.version>
         <driver>chrome</driver>
         <driver.version/>
         <driver.remote.url/>
@@ -22,6 +22,8 @@
         <allure.testng>2.19.0</allure.testng>
         <allure.maven>2.11.2</allure.maven>
         <jetty.version>11.0.12</jetty.version>
+        <!-- - - add-opens java.base/java.lang=ALL-UNNAMED is needed for JDK 16+ -->
+        <aspectj.args></aspectj.args>
     </properties>
 
     <profiles>
@@ -98,18 +100,15 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/general.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <testFailureIgnore>false</testFailureIgnore>
+                    <!-- testFailureIgnore>false</testFailureIgnore -->
                     <argLine>
+                        ${aspectj.args}
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
                             <value>${project.build.directory}/allure-results</value>
-                        </property>
-                        <property>
-                            <name>allure.link.issue.pattern</name>
-                            <value>https://example.org/issue/{}</value>
                         </property>
                     </systemProperties>
                 </configuration>
