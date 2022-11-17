@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
+import static com.jdiai.tools.StringUtils.LINE_BREAK;
 import static java.util.Arrays.asList;
 import static org.hamcrest.Matchers.*;
 import static org.mytests.tests.preconditions.Preconditions.shouldBeLoggedIn;
@@ -35,13 +36,13 @@ public class DataTableTests extends TestsInit {
                 "Number Type User Description 1 Admin User Manager Roman Wolverine Vip 2 Admin User Manager Sergey Ivan Spider Man Vip 3 Admin User Manager Vladzimir Punisher Vip 4 Admin User Manager Helen Bennett Captain America some description Vip 5 Admin User Manager Yoshi Tannamuri Cyclope some description Vip 6 Admin User Manager Giovanni Rovelli Hulk some description Vip");
         value = users.getValue();
         assertEquals(value,
-        "||X||Number|Type|User|Description||\r\n" +
-            "||1||1|Admin|Roman|Wolverine:VIP||\r\n" +
-            "||2||2|User|Sergey Ivan|Spider Man:Dude||\r\n" +
-            "||3||3|Manager|Vladzimir|Punisher:VIP||\r\n" +
-            "||4||4|User|Helen Bennett|Captain America\\nsome description:Dude||\r\n" +
-            "||5||5|User|Yoshi Tannamuri|Cyclope\\nsome description:Dude||\r\n" +
-            "||6||6|User|Giovanni Rovelli|Hulk\\nsome description:Dude||\r\n");
+        "||X||Number|Type|User|Description||" + LINE_BREAK +
+            "||1||1|Admin|Roman|Wolverine:VIP||" + LINE_BREAK +
+            "||2||2|User|Sergey Ivan|Spider Man:Dude||" + LINE_BREAK +
+            "||3||3|Manager|Vladzimir|Punisher:VIP||" + LINE_BREAK +
+            "||4||4|User|Helen Bennett|Captain America\\nsome description:Dude||" + LINE_BREAK +
+            "||5||5|User|Yoshi Tannamuri|Cyclope\\nsome description:Dude||" + LINE_BREAK +
+            "||6||6|User|Giovanni Rovelli|Hulk\\nsome description:Dude||" + LINE_BREAK);
     }
     @Test
     public void filterDataTest() {
